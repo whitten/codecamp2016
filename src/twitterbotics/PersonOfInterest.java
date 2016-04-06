@@ -6,7 +6,7 @@ import java.util.Random;
 import java.util.Vector;
 import java.util.Hashtable;
 
-import com.sun.j3d.utils.behaviors.picking.Intersect;
+//import com.sun.j3d.utils.behaviors.picking.Intersect;
 
 // Use the knowledge-base(s) of famous people (real and fictional) to generate apt comparisons
 

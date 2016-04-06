@@ -9,7 +9,7 @@ import java.util.Hashtable;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import Categorizer.WordTable;
+//import Categorizer.WordTable;
 
 // A class to hold a particular module of a knowledge-base of triples
 // T. Veale, 2015
