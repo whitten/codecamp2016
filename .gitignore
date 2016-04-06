@@ -66,3 +66,6 @@ cwallet.sso.lck### Java template
 hs_err_pid*
 
 # Created by .ignore support plugin (hsz.mobi)
+
+*.iml
+/.idea
