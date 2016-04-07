@@ -171,7 +171,7 @@ public class PersonOfInterest
 										
 										if (melee == null) continue;
 										
-										String dream     = preamble + activity + " with " + NOC.hashtagify(instance) +
+												String dream     = preamble + activity + " with " + NOC.hashtagify(instance) +
 															" when we were " + melee + " " + wDet + weapon + " by " + NOC.hashtagify(exemplar);
 											
 										String followup  = "I guess " + NOC.hashtagify(exemplar) + " and " + NOC.hashtagify(instance) +

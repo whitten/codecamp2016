@@ -84,6 +84,12 @@ public class StoryDB {
 
                 Vector verbs = INTERCAT.getFieldValues("Verbs", intersect);
                 System.out.println(verbs);
+
+                Vector initStory = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
+                System.out.println(initStory.get(roll(initStory.size())));
+
+                Vector endingStory = ENDING.getFieldValues("Closing Action", (String)verbs.get(roll(verbs.size())));
+                System.out.println(endingStory.get(roll(endingStory.size())));
                 break;
             }
             catch (NullPointerException e) {
