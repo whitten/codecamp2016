@@ -7,6 +7,5 @@ public class Sample {
 		String tdir = "D:/tdir/";
 		StoryDB storyDB = new StoryDB(kdir);
 		storyDB.generateAntagonistsv2();
-
 	}
 }

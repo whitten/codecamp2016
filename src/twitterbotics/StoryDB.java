@@ -62,5 +62,8 @@ public class StoryDB {
         int randomInt = randomGenerator.nextInt(attributeFields2.size());
         Object objs = attributeFields2.get(randomInt);
         System.out.println(A + ", " + objs + " ");
+        System.out.println(NOC.getFieldValues("Category", objs.toString()));
+        System.out.println(NOC.getFieldValues("Category", A));
     }
+
 }
