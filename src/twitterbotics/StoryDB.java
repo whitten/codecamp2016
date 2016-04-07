@@ -19,6 +19,7 @@ public class StoryDB {
     private KnowledgeBaseModule ENDING       = null;
     private KnowledgeBaseModule ANTONYMS	 = null;
     private Hashtable NEG_QUALITIES 		 = null;
+    private Vector attributeFields = new Vector();
 
 
     public StoryDB(String kbDirectory) {
@@ -35,7 +36,6 @@ public class StoryDB {
         return DICE.nextInt(size);
     }
 
-
     public void generateAntagonists () {
         Vector exemplars = INIT.getKeyConcepts();
         String exemplar = (String)exemplars.elementAt(roll(exemplars.size()));
@@ -47,5 +47,16 @@ public class StoryDB {
         Vector instances = (Vector)NEG_QUALITIES.get(opposite);
         if (instances == null) return;
 
+    }
+
+    public void generateAntagonistsv2() {
+        attributeFields.add("Negative Talking Points");
+        attributeFields.add("Positive Talking Points");
+        Vector attributeFields2 = NOC.getSimilarConcepts("Darth Vader", attributeFields);
+        Random randomGenerator = new Random();
+        int randomInt = randomGenerator.nextInt(attributeFields2.size());
+        Object objs = attributeFields2.get(randomInt);
+        System.out.print(objs + " ");
+        System.out.println();
     }
 }
