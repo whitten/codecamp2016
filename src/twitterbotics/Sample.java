@@ -1,4 +1,5 @@
 package twitterbotics;
+<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.Random;
@@ -65,6 +66,30 @@ public class Sample {
 		System.out.print(objs + " ");
 		System.out.println();
 		
+=======
+//import java.util.Scanner;
+
+public class Sample {
+    public static void main (String[] args) {
+		String kdir = "D:/TSV Lists/";
+		String tdir = "D:/tdir/";
+		StoryDB storyDB = new StoryDB(kdir);
+
+		
+//		PersonOfInterest stereonomicon = new PersonOfInterest(kdir);
+		
+//		stereonomicon.generateDreamConflicts(tdir);
+		
+//		stereonomicon.makeOthersLookGood(tdir);
+//
+//		stereonomicon.generateNietzscheanTweets(tdir);
+//
+//		stereonomicon.generateShakespeareanTweets(tdir);
+//
+//		stereonomicon.walkMileInShoes(tdir);
+//
+//		stereonomicon.generateXYZs(tdir);
+>>>>>>> origin/master
         
     }
 }
