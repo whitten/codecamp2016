@@ -23,6 +23,7 @@ public class StoryDB {
     private Vector attributeFields           = new Vector();
     private Vector allPeople				 = null;
     private KnowledgeBaseModule INTERCAT       = null;
+    private KnowledgeBaseModule IDIOMATIC       = null;
 
 
     public StoryDB(String kbDirectory) {
@@ -33,6 +34,7 @@ public class StoryDB {
         NEG_QUALITIES = NOC.getInvertedField("Negative Talking Points");
         INIT = new KnowledgeBaseModule(knowledgeDir + "Veale's initial bookend actions.txt", 0);
         ENDING = new KnowledgeBaseModule(knowledgeDir + "Veale's closing bookend actions.txt", 0);
+        IDIOMATIC = new KnowledgeBaseModule(knowledgeDir + "Veale's idiomatic actions.txt", 0);
         INTERCAT = new KnowledgeBaseModule(knowledgeDir + "Veale's Inter-Category Relationships.txt", 0);
         allPeople       = NOC.getKeyConcepts();
     }
@@ -83,20 +85,29 @@ public class StoryDB {
                 String intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
 
                 Vector verbs = INTERCAT.getFieldValues("Verbs", intersect);
-                System.out.println(verbs);
+                //System.out.println(verbs);
 
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
                 initStory = initStory.replace("A", A);
                 initStory = initStory.replace("B", B);
-                System.out.println(initStory);
+                
+                
+                Vector idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                String idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                
 
                 Vector endingStoryVec = ENDING.getFieldValues("Closing Action", (String)verbs.get(roll(verbs.size())));
                 String endingStory = (String)endingStoryVec.get(roll(endingStoryVec.size()));
                 endingStory = endingStory.replace("A", A);
                 endingStory = endingStory.replace("B", B);
-
-                System.out.println(endingStory);
+                
+                
+                System.out.println("Initia:"+initStory);
+                System.out.println("Idiomatic:"+idiomaticStory);
+                System.out.println("Ending:"+endingStory);
 
 
                 break;
