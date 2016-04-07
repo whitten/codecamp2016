@@ -24,6 +24,7 @@ public class StoryDB {
     private Vector allPeople				 = null;
     private KnowledgeBaseModule INTERCAT       = null;
     private KnowledgeBaseModule IDIOMATIC       = null;
+    private Vector wordBank = new Vector();
 
 
     public StoryDB(String kbDirectory) {
@@ -37,6 +38,7 @@ public class StoryDB {
         IDIOMATIC = new KnowledgeBaseModule(knowledgeDir + "Veale's idiomatic actions.txt", 0);
         INTERCAT = new KnowledgeBaseModule(knowledgeDir + "Veale's Inter-Category Relationships.txt", 0);
         allPeople       = NOC.getKeyConcepts();
+
     }
 
     public int roll(int size) {
@@ -70,21 +72,37 @@ public class StoryDB {
                 int randomInt = randomGenerator.nextInt(attributeFields2.size());
                 String B = (String)attributeFields2.get(randomInt);
                 System.out.println(A + ", " + B + " ");
-                Vector firstPersonCat = NOC.getFieldValues("Category", B);
-                Vector secondPersonCat = NOC.getFieldValues("Category", A);
-                int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
-                int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
+                Vector firstPersonCat = NOC.getFieldValues("Category", A);
+                Vector secondPersonCat = NOC.getFieldValues("Category", B);
 
-                String catOfFirstPerson = firstPersonCat.get(randomInt1).toString();
-                String catOfSecondPerson = secondPersonCat.get(randomInt2).toString();
+//                String catOfFirstPerson = firstPersonCat.get(roll(firstPersonCat.size())).toString();
+//                String catOfSecondPerson = secondPersonCat.get(roll(secondPersonCat.size())).toString();
 
                 //System.out.println(catOfFirstPerson);
 
-                Vector categoryFirstPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
-                Vector categorySecondPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
-                String intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
+                Vector tmp1;
+                Vector tmp2;
+                Vector intersect;
+                String intersectValue = null;
 
-                Vector verbs = INTERCAT.getFieldValues("Verbs", intersect);
+                for (int i = 0; i < firstPersonCat.size(); ++i) {
+                    for (int j =  0; j < secondPersonCat.size(); ++j) {
+                        tmp1 = INTERCAT.getAllKeysWithFieldValue("Subject", (String)firstPersonCat.get(i));
+                        tmp2 = INTERCAT.getAllKeysWithFieldValue("Subject", (String)secondPersonCat.get(j));
+                        intersect = INTERCAT.intersect(tmp1, tmp2);
+                        if (intersect.size() < 1) continue;
+                        intersectValue = (String)intersect.get(0);
+                        break;
+                    }
+                }
+
+                if (intersectValue == null) continue;
+
+//                Vector categoryFirstPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+//                Vector categorySecondPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfSecondPerson);
+//                intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
+
+                Vector verbs = INTERCAT.getFieldValues("Verbs", intersectValue);
                 //System.out.println(verbs);
 
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
@@ -109,6 +127,7 @@ public class StoryDB {
                 System.out.println("Idiomatic:"+idiomaticStory);
                 System.out.println("Ending:"+endingStory);
 
+                wordBank.add(A);
 
                 break;
             }
