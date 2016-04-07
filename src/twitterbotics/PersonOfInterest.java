@@ -17,7 +17,7 @@ public class PersonOfInterest
 	private String knowledgeDir				 = null;   // directory where knowledge-base(s) can be found
 	
 	// Various modules of the knowledge-base
-	
+
 	private KnowledgeBaseModule NOC          = null;
 	private KnowledgeBaseModule CATEGORIES   = null;
 	private KnowledgeBaseModule CLOTHES      = null;
@@ -87,7 +87,7 @@ public class PersonOfInterest
 		attributeFields.add("Positive Talking Points");
 	}
 	
-	
+
 	//-----------------------------------------------------------------------------------------------//
 	//-----------------------------------------------------------------------------------------------//
 	//  Generate "I was Xing with Y when attacked by Z" metaphors
@@ -171,7 +171,7 @@ public class PersonOfInterest
 										
 										if (melee == null) continue;
 										
-										String dream     = preamble + activity + " with " + NOC.hashtagify(instance) +
+												String dream     = preamble + activity + " with " + NOC.hashtagify(instance) +
 															" when we were " + melee + " " + wDet + weapon + " by " + NOC.hashtagify(exemplar);
 											
 										String followup  = "I guess " + NOC.hashtagify(exemplar) + " and " + NOC.hashtagify(instance) +
@@ -1605,15 +1605,15 @@ public class PersonOfInterest
 		
 		stereonomicon.generateDreamConflicts(tdir);
 		
-		stereonomicon.makeOthersLookGood(tdir);
+		//stereonomicon.makeOthersLookGood(tdir);
 		
-		stereonomicon.generateNietzscheanTweets(tdir);
+		//stereonomicon.generateNietzscheanTweets(tdir);
 		
-		stereonomicon.generateShakespeareanTweets(tdir);
+		//stereonomicon.generateShakespeareanTweets(tdir);
 		
-		stereonomicon.walkMileInShoes(tdir);
+		//stereonomicon.walkMileInShoes(tdir);
 		
-		stereonomicon.generateXYZs(tdir);
+		//stereonomicon.generateXYZs(tdir);
 	}
 		
 
