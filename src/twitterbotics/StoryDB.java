@@ -66,9 +66,9 @@ public class StoryDB {
                 Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
                 Random randomGenerator = new Random();
                 int randomInt = randomGenerator.nextInt(attributeFields2.size());
-                Object objs = attributeFields2.get(randomInt);
-                System.out.println(A + ", " + objs + " ");
-                Vector firstPersonCat = NOC.getFieldValues("Category", objs.toString());
+                String B = (String)attributeFields2.get(randomInt);
+                System.out.println(A + ", " + B + " ");
+                Vector firstPersonCat = NOC.getFieldValues("Category", B);
                 Vector secondPersonCat = NOC.getFieldValues("Category", A);
                 int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
                 int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
@@ -85,11 +85,20 @@ public class StoryDB {
                 Vector verbs = INTERCAT.getFieldValues("Verbs", intersect);
                 System.out.println(verbs);
 
-                Vector initStory = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
-                System.out.println(initStory.get(roll(initStory.size())));
+                Vector initStoryVec = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
+                String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
+                initStory = initStory.replace("A", A);
+                initStory = initStory.replace("B", B);
+                System.out.println(initStory);
 
-                Vector endingStory = ENDING.getFieldValues("Closing Action", (String)verbs.get(roll(verbs.size())));
-                System.out.println(endingStory.get(roll(endingStory.size())));
+                Vector endingStoryVec = ENDING.getFieldValues("Closing Action", (String)verbs.get(roll(verbs.size())));
+                String endingStory = (String)endingStoryVec.get(roll(endingStoryVec.size()));
+                endingStory = endingStory.replace("A", A);
+                endingStory = endingStory.replace("B", B);
+
+                System.out.println(endingStory);
+
+
                 break;
             }
             catch (NullPointerException e) {
