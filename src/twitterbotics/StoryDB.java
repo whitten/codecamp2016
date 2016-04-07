@@ -71,9 +71,14 @@ public class StoryDB {
                 Random randomGenerator = new Random();
                 int randomInt = randomGenerator.nextInt(attributeFields2.size());
                 String B = (String)attributeFields2.get(randomInt);
-                System.out.println(A + ", " + B + " ");
+                //System.out.println(A + ", " + B + " ");
                 Vector firstPersonCat = NOC.getFieldValues("Category", A);
                 Vector secondPersonCat = NOC.getFieldValues("Category", B);
+
+//                String catOfFirstPerson = firstPersonCat.get(roll(firstPersonCat.size())).toString();
+//                String catOfSecondPerson = secondPersonCat.get(roll(secondPersonCat.size())).toString();
+
+                //System.out.println(catOfFirstPerson);
 
                 Vector tmp1;
                 Vector tmp2;
@@ -93,7 +98,12 @@ public class StoryDB {
 
                 if (intersectValue == null) continue;
 
+//                Vector categoryFirstPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+//                Vector categorySecondPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfSecondPerson);
+//                intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
+
                 Vector verbs = INTERCAT.getFieldValues("Verbs", intersectValue);
+                //System.out.println(verbs);
 
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
@@ -112,7 +122,9 @@ public class StoryDB {
                 endingStory = endingStory.replace("A", A);
                 endingStory = endingStory.replace("B", B);
                 
-                
+                System.out.println(A + ", " + B + " ");
+                System.out.println(verbs);
+
                 System.out.println(initStory);
                 System.out.println(idiomaticStory);
                 idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
@@ -141,6 +153,7 @@ public class StoryDB {
                 idiomaticStory = idiomaticStory.replace("B", B);
                 System.out.println(idiomaticStory);
                 System.out.println(endingStory);
+                
 
                 wordBank.add(A);
 
