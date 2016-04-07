@@ -19,7 +19,9 @@ public class StoryDB {
     private KnowledgeBaseModule ENDING       = null;
     private KnowledgeBaseModule ANTONYMS	 = null;
     private Hashtable NEG_QUALITIES 		 = null;
-    private Vector attributeFields = new Vector();
+    private Vector attributeFields           = new Vector();
+    private Vector allPeople				 = null;
+
 
 
     public StoryDB(String kbDirectory) {
@@ -30,6 +32,7 @@ public class StoryDB {
         NEG_QUALITIES = NOC.getInvertedField("Negative Talking Points");
         INIT = new KnowledgeBaseModule(knowledgeDir + "Veale's initial bookend actions.txt", 0);
         ENDING = new KnowledgeBaseModule(knowledgeDir + "Veale's closing bookend actions.txt", 0);
+        allPeople       = NOC.getKeyConcepts();
     }
 
     public int roll(int size) {
@@ -50,13 +53,14 @@ public class StoryDB {
     }
 
     public void generateAntagonistsv2() {
+
         attributeFields.add("Negative Talking Points");
         attributeFields.add("Positive Talking Points");
-        Vector attributeFields2 = NOC.getSimilarConcepts("Darth Vader", attributeFields);
+        String A = (String)allPeople.get(roll(allPeople.size()));
+        Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
         Random randomGenerator = new Random();
         int randomInt = randomGenerator.nextInt(attributeFields2.size());
         Object objs = attributeFields2.get(randomInt);
-        System.out.print(objs + " ");
-        System.out.println();
+        System.out.println(A + ", " + objs + " ");
     }
 }
