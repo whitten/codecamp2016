@@ -58,28 +58,41 @@ public class StoryDB {
 
     public void generateAntagonistsv2() {
 
-        attributeFields.add("Negative Talking Points");
-        attributeFields.add("Positive Talking Points");
-        String A = (String)allPeople.get(roll(allPeople.size()));
-        Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
-        Random randomGenerator = new Random();
-        int randomInt = randomGenerator.nextInt(attributeFields2.size());
-        Object objs = attributeFields2.get(randomInt);
-        System.out.println(A + ", " + objs + " ");
-        Vector firstPersonCat=NOC.getFieldValues("Category", objs.toString());
-        Vector secondPersonCat=NOC.getFieldValues("Category", A);
-        int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
-        int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
-        
-        String catOfFirstPerson =firstPersonCat.get(randomInt1).toString();
-        String catOfSecondPerson =secondPersonCat.get(randomInt2).toString();
-        
-        //System.out.println(catOfFirstPerson);
-        		
-        Vector categoryFirstPerson= INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
-        Vector categorySecondPerson= INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
-        String intersect = (String)INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
-        System.out.println(intersect);
+        while(true) {
+            try {
+                attributeFields.add("Negative Talking Points");
+                attributeFields.add("Positive Talking Points");
+                String A = (String) allPeople.get(roll(allPeople.size()));
+                Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
+                Random randomGenerator = new Random();
+                int randomInt = randomGenerator.nextInt(attributeFields2.size());
+                Object objs = attributeFields2.get(randomInt);
+                System.out.println(A + ", " + objs + " ");
+                Vector firstPersonCat = NOC.getFieldValues("Category", objs.toString());
+                Vector secondPersonCat = NOC.getFieldValues("Category", A);
+                int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
+                int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
+
+                String catOfFirstPerson = firstPersonCat.get(randomInt1).toString();
+                String catOfSecondPerson = secondPersonCat.get(randomInt2).toString();
+
+                //System.out.println(catOfFirstPerson);
+
+                Vector categoryFirstPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+                Vector categorySecondPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+                String intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
+
+                Vector verbs = INTERCAT.getFieldValues("Verbs", intersect);
+                System.out.println(verbs);
+                break;
+            }
+            catch (NullPointerException e) {
+                continue;
+            }
+        }
+
+
+
         
         
     }
