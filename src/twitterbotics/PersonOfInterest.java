@@ -1598,8 +1598,8 @@ public class PersonOfInterest
 	
 	public static void main(String[] args)
 	{
-		String kdir = "/Users/tonyveale/Dropbox/CodeCamp2015/DATA/TSV Lists/";
-		String tdir = "/Users/tonyveale/Desktop/Lexical Resources/Moods/";		
+		String kdir = "D:/TSV Lists/";
+		String tdir = "D:/tdir/";		
 		
 		PersonOfInterest stereonomicon = new PersonOfInterest(kdir);
 		
