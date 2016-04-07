@@ -1605,15 +1605,15 @@ public class PersonOfInterest
 		
 		stereonomicon.generateDreamConflicts(tdir);
 		
-		stereonomicon.makeOthersLookGood(tdir);
+		//stereonomicon.makeOthersLookGood(tdir);
 		
-		stereonomicon.generateNietzscheanTweets(tdir);
+		//stereonomicon.generateNietzscheanTweets(tdir);
 		
-		stereonomicon.generateShakespeareanTweets(tdir);
+		//stereonomicon.generateShakespeareanTweets(tdir);
 		
-		stereonomicon.walkMileInShoes(tdir);
+		//stereonomicon.walkMileInShoes(tdir);
 		
-		stereonomicon.generateXYZs(tdir);
+		//stereonomicon.generateXYZs(tdir);
 	}
 		
 

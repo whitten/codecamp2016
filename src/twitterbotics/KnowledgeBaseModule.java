@@ -602,7 +602,8 @@ public class KnowledgeBaseModule
 	
 	public static void main(String[] args)
 	{
-		String kdir = "/Users/tonyveale/Dropbox/CodeCamp2015/TSV Lists/";
+		String kdir = "D:/TSV Lists/";
+		String tdir = "D:/tdir/";
 		
 		KnowledgeBaseModule NOC          = new KnowledgeBaseModule(kdir + "Veale's The NOC List.txt", 0);
 		KnowledgeBaseModule CATEGORIES   = new KnowledgeBaseModule(kdir + "Veale's Category Hierarchy.txt", 0);
