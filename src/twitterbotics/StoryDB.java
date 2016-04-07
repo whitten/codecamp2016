@@ -51,7 +51,9 @@ public class StoryDB {
         String opposite  = (String)opposites.elementAt(roll(opposites.size()));
         Vector instances = (Vector)NEG_QUALITIES.get(opposite);
         if (instances == null) return;
-
+//      CODE GRAVEYARD
+//        .............
+//        .............
     }
 
     public void generateAntagonistsv2() {
@@ -74,16 +76,10 @@ public class StoryDB {
         
         //System.out.println(catOfFirstPerson);
         		
-        Vector categoryFirstPerson= INTERCAT.getFieldValues("Subject", "President");
-        
-        if (categoryFirstPerson.size() > 0)
-        {
-        	Iterator i = categoryFirstPerson.iterator();
-            while (i.hasNext()) {
-              System.out.println(i.next());
-            }
-
-        }
+        Vector categoryFirstPerson= INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+        Vector categorySecondPerson= INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
+        String intersect = (String)INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
+        System.out.println(intersect);
         
         
     }
