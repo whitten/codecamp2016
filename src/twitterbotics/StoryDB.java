@@ -3,6 +3,7 @@ package twitterbotics;
 import java.util.Hashtable;
 import java.util.Random;
 import java.util.Vector;
+import java.util.Iterator;
 
 /**
  * Created by user on 2016-04-07.
@@ -21,7 +22,7 @@ public class StoryDB {
     private Hashtable NEG_QUALITIES 		 = null;
     private Vector attributeFields           = new Vector();
     private Vector allPeople				 = null;
-
+    private KnowledgeBaseModule INTERCAT       = null;
 
 
     public StoryDB(String kbDirectory) {
@@ -32,6 +33,7 @@ public class StoryDB {
         NEG_QUALITIES = NOC.getInvertedField("Negative Talking Points");
         INIT = new KnowledgeBaseModule(knowledgeDir + "Veale's initial bookend actions.txt", 0);
         ENDING = new KnowledgeBaseModule(knowledgeDir + "Veale's closing bookend actions.txt", 0);
+        INTERCAT = new KnowledgeBaseModule(knowledgeDir + "Veale's Inter-Category Relationships.txt", 0);
         allPeople       = NOC.getKeyConcepts();
     }
 
@@ -66,7 +68,24 @@ public class StoryDB {
         Vector secondPersonCat=NOC.getFieldValues("Category", A);
         int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
         int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
-        System.out.println(firstPersonCat.get(randomInt1) + ", " + secondPersonCat.get(randomInt2) + " ");
+        
+        String catOfFirstPerson =firstPersonCat.get(randomInt1).toString();
+        String catOfSecondPerson =secondPersonCat.get(randomInt2).toString();
+        
+        //System.out.println(catOfFirstPerson);
+        		
+        Vector categoryFirstPerson= INTERCAT.getFieldValues("Subject", "President");
+        
+        if (categoryFirstPerson.size() > 0)
+        {
+        	Iterator i = categoryFirstPerson.iterator();
+            while (i.hasNext()) {
+              System.out.println(i.next());
+            }
+
+        }
+        
+        
     }
 
 }
