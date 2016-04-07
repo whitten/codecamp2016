@@ -75,11 +75,6 @@ public class StoryDB {
                 Vector firstPersonCat = NOC.getFieldValues("Category", A);
                 Vector secondPersonCat = NOC.getFieldValues("Category", B);
 
-//                String catOfFirstPerson = firstPersonCat.get(roll(firstPersonCat.size())).toString();
-//                String catOfSecondPerson = secondPersonCat.get(roll(secondPersonCat.size())).toString();
-
-                //System.out.println(catOfFirstPerson);
-
                 Vector tmp1;
                 Vector tmp2;
                 Vector intersect;
@@ -98,12 +93,7 @@ public class StoryDB {
 
                 if (intersectValue == null) continue;
 
-//                Vector categoryFirstPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfFirstPerson);
-//                Vector categorySecondPerson = INTERCAT.getAllKeysWithFieldValue("Subject", catOfSecondPerson);
-//                intersect = (String) INTERCAT.intersect(categoryFirstPerson, categorySecondPerson).get(0);
-
                 Vector verbs = INTERCAT.getFieldValues("Verbs", intersectValue);
-                //System.out.println(verbs);
 
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", (String)verbs.get(roll(verbs.size())));
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
@@ -123,9 +113,34 @@ public class StoryDB {
                 endingStory = endingStory.replace("B", B);
                 
                 
-                System.out.println("Initia:"+initStory);
-                System.out.println("Idiomatic:"+idiomaticStory);
-                System.out.println("Ending:"+endingStory);
+                System.out.println(initStory);
+                System.out.println(idiomaticStory);
+                idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                System.out.println(idiomaticStory);
+                idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                System.out.println(idiomaticStory);
+                idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                System.out.println(idiomaticStory);
+                idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                System.out.println(idiomaticStory);
+                idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", (String)verbs.get(roll(verbs.size())));
+                idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                idiomaticStory = idiomaticStory.replace("A", A);
+                idiomaticStory = idiomaticStory.replace("B", B);
+                System.out.println(idiomaticStory);
+                System.out.println(endingStory);
 
                 wordBank.add(A);
 
