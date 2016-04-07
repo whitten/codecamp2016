@@ -1,0 +1,2757 @@
+Before Midpoint	Midpoint	After Midpoint	Exemplars		
+help	are_exploited_by	"abandon, turn_against,take_aim_at"	caregiver:baby		
+look_after	"are_pushed_too_far_by, are_bitten_by"	"abandon, turn_against, take_aim_at"	custodian:juvenile		
+"tend, care_for"	"are_pushed_too_far_by, are_disgusted_by, are_shocked_by"	"abandon, testify_against"	babysitter:baby		
+capture	are_bitten_by	"abuse, kill"	pirate:captive		
+enlist	"are_trusted_by, are_respected_by"	abuse	king:pawn		
+exploit	"are_feared_by, are_distrusted_by"	alienate	king:pawn		
+"supervise, look_after"	"are_trusted_by, are_respected_by"	indoctrinate	momma:baby		
+look_after	"are_upstaged_by, are_driven_mad_by, are_bitten_by"	abuse	momma:baby		
+lead	are_disrespected_by	abuse	warlord:follower		
+mock	are_forgiven_by	admire	fiend:victim		
+spy_on	are_discovered_by	beg_forgiveness_from	assassin:target		
+spy_on	are_shocked_by	take_aim_at	assassin:target		
+"are_trusted_by, are_welcomed_by, are_intrigued_by"	spy_on	are_shocked_by	spy:target		
+are_shocked_by	blackmail	are_bought_off_by	spy:target		
+abuse	"are_feared_by, are_distrusted_by, are_despised_by"	alienate	celebrity:admirer		
+condescend_to	"are_despised_by, are_resented_by"	alienate	celebrity:admirer		
+condescend_to	"are_ignored_by, are_rebuffed_by"	humiliate	populist:follower		
+humiliate	are_despised_by	alienate	bully:victim		
+insult	are_despised_by	alienate	sage:follower		
+love	are_driven_mad_by	"alienate, kill"	mother:baby		
+love	are_energized_by	alienate	mother:baby		
+play_for	"are_heckled_by, are_booed_by"	condescend_to	musician:listener		
+punish	"are_despised_by, are_resented_by"	alienate	totalitarian:dissenter		
+resent	"are_feared_by, are_distrusted_by"	alienate	nationalist:foreigner		
+travel_with	are_bored_by	alienate	companion:traveler		
+tune_out	"are_lectured_by, are_chastised_by"	alienate	parishioner:preacher		
+interview	"are_impressed_by, are_entertained_by, are_intrigued_by"	write_about	biographer:star		
+interview	"are_trusted_by, are_respected_by"	share_stories_with	biographer:star		
+interview	"are_trusted_by, are_respected_by"	spread_lies_about	biographer:star		
+interview	"are_insulted_by, are_attacked_by"	testify_against	biographer:star		
+write_about	are_contradicted_by	argue_with	biographer:star		
+observe	are_intrigued_by	spy_on	biographer:star		
+are_accompanied_by	"argue_with, disagree_with, fail_to_deliver_for"	are_abandoned_by	explorer:cartographer		
+are_assisted_by	"condescend_to, overwork"	are_abandoned_by	apostle:helper		
+are_deflowered_by	fall_in_love_with	are_abandoned_by	maiden:swain		
+are_escorted_by	argue_with	are_abandoned_by	president:bodyguard		
+are_followed_by	"disappoint, disillusion, deceive, condescend_to"	are_abandoned_by	guru:disciple		
+are_kissed_by	sleep_with	are_abandoned_by	girl:boy		
+are_shielded_by	"fail_to_reward, condescend_to"	are_abandoned_by	politician:gatekeeper		
+are_supported_by	"condescend_to, disrespect, fail_to_reward"	are_abandoned_by	president:loyalist		
+are_worshipped_by	"fail_to_impress, ignore, spread_lies_about, fail_to_deliver_for"	are_abandoned_by	comedian:fan		
+are_attracted_by	"trust, flirt_with, play_with"	are_abducted_by	hostage:abductor		
+are_worshipped_by	"condescend_to, ignore"	are_abducted_by	captive:abductor		
+are_arrested_for_hurting	"beg_forgiveness_from, seek_forgiveness_from"	are_forgiven_by	bully:victim		
+are_forgiven_by	sympathize_with	are_inspired_by	bully:victim		
+are_evaluated_by	"lick_up_to, kiss_up_to, flatter"	are_appointed_by	bishop:pope		
+are_abused_by	stand_up_to	"are_arrested_for_killing, are_arrested_for_hurting"	captive:overseer		
+are_beaten_by	attack	"are_arrested_for_killing, are_arrested_for_hurting"	victim:bully		
+are_betrayed_by	silence	"are_arrested_for_killing, are_arrested_for_hurting"	confidante:friend		
+are_betrayed_by	track_down	"are_arrested_for_killing, are_arrested_for_hurting"	conspirator:coconspirator		
+are_corrupted_by	disagree_with	"are_arrested_for_killing, are_arrested_for_hurting"	victim:temptress		
+are_denounced_by	attack	"are_arrested_for_killing, are_arrested_for_hurting"	critic:artist		
+are_driven_mad_by	stalk	"are_arrested_for_killing, are_arrested_for_hurting"	fan:celebrity		
+are_facilitated_by	argue_with	"are_arrested_for_killing, are_arrested_for_hurting"	negotiator:mediator		
+are_fired_by	murder	are_arrested_for_killing	underling:boss		
+are_humiliated_by	attack	"are_arrested_for_killing, are_arrested_for_hurting"	fan:celebrity		
+are_ruined_by	abduct	"are_arrested_for_killing, are_arrested_for_hurting"	victim:blackmailer		
+are_stalked_by	"threaten, sue, taunt"	"are_arrested_for_killing, are_arrested_for_hurting"	fugitive:pursuer		
+are_taunted_by	attack	"are_arrested_for_killing, are_arrested_for_hurting"	underdog:bully		
+are_threatened_by	"attack, murder"	"are_arrested_for_killing, are_arrested_for_hurting"	victim:bully		
+are_underestimated_by	lay_a_trap_for	are_cursed_by	prey:abuser		
+arrest	"are_insulted_by, are_attacked_by"	are_arrested_for_killing	cop:criminal		
+denounce	are_attacked_by	are_arrested_for_killing	critic:rival		
+take_up_with	are_betrayed_by	are_arrested_for_killing	cheater:mistress		
+are_ignored_by	threaten	are_attacked_by	evangelist:sinner		
+are_unimpressed_by	"criticize, mock, taunt"	are_attacked_by	peer:professional		
+are_advised_by	"listen_to, learn_from, look_up_to"	are_attracted_by	acolyte:guru		
+are_defrocked_by	"beg_forgiveness_from, seek_forgiveness_from"	are_banished_by	clergyman:bishop		
+are_denounced_by	"beg_forgiveness_from, seek_forgiveness_from"	are_banished_by	socialist:comrade		
+are_ennobled_by	"disagree_with, betray, cheat"	are_banished_by	aristocrat:king		
+are_exorcized_by	cry_for	are_banished_by	ghost:priest		
+are_nurtured_by	disappoint	are_banished_by	infant:mama		
+are_rebuffed_by	"threaten, criticize, attack"	are_banished_by	suitor:beauty		
+are_recalled_by	"beg_forgiveness_from, seek_forgiveness_from"	are_banished_by	ambassador:president		
+are_challenged_by	attack	are_beaten_by	opposer:advocate		
+are_enslaved_by	"stand_up_to, disobey"	are_beaten_by	native:conqueror		
+are_failed_by	"sue, condescend_to"	are_beaten_by	hearer:lecturer		
+are_interrogated_by	"lie_to, deceive"	are_beaten_by	defendant:interrogator		
+are_protected_by	fail_to_deliver_for	are_beaten_by	prostitute:pimp		
+are_pushed_too_far_by	disobey	are_beaten_by	hostage:guard		
+are_repaid_by	condescend_to	are_beaten_by	lender:borrower		
+are_rescued_by	"disgust, argue_with, criticize"	are_beaten_by	evacuee:savior		
+are_saved_by	"disagree_with, disappoint"	are_beaten_by	captive:savior		
+are_spoiled_by	"insult, disrespect"	are_beaten_by	brat:parent		
+are_tended_by	turn_against	are_beaten_by	child:mama		
+are_threatened_by	stand_up_to	are_beaten_by	hostage:bank_robber		
+are_tipped_by	"insult, disrespect, condescend_to"	are_beaten_by	porter:tourist		
+"are_cut_off_by, are_spoiled_by, are_failed_by"	spread_lies_about	are_beaten_by	slave:slaveholder		
+are_treated_by	condescend_to	are_beaten_by	casualty:medic		
+are_accompanied_by	fall_in_love_with	are_betrayed_by	explorer:cartographer		
+are_brainwashed_by	kill_for	are_betrayed_by	suicide_bomber:imam		
+are_championed_by	"disappoint, disgust, condescend_to"	are_betrayed_by	lord:knight		
+are_corrupted_by	conspire_with	are_betrayed_by	abetter:criminal		
+are_counseled_by	"disgust, disrespect"	are_betrayed_by	psycho:psychiatrist		
+are_defended_by	"condescend_to, overwork"	are_betrayed_by	overlord:thug		
+are_deflowered_by	marry	are_betrayed_by	lady:suitor		
+are_escorted_by	condescend_to	are_betrayed_by	president:bodyguard		
+are_flattered_by	"favor, show_loyalty_to, fall_in_love_with, confide_in"	are_betrayed_by	boss:bootlicker		
+are_impressed_by	"promote, advise, coach, teach"	are_betrayed_by	king:pawn		
+are_protected_by	"disgust, condescend_to"	are_betrayed_by	celebrity:minder		
+are_scripted_by	disagree_with	are_betrayed_by	politician:handler		
+are_served_by	fail_to_reward	are_betrayed_by	overlord:underling		
+are_supported_by	"trust, confide_in"	are_betrayed_by	actor:understudy		
+are_unimpressed_by	underestimate	are_betrayed_by	conspirator:coconspirator		
+are_waited_upon_by	"condescend_to, fail_to_reward"	are_betrayed_by	queen:handmaiden		
+are_cut_off_by	starve	are_bitten_by	dealer:wholesaler		
+are_corrupted_by	"trust, confide_in"	are_blackmailed_by	victim:blackmailer		
+are_enticed_by	sleep_with	are_blackmailed_by	punter:prostitute		
+are_escorted_by	sleep_with	are_blackmailed_by	president:bodyguard		
+are_followed_by	"lead_astray, confide_in"	are_blackmailed_by	master:imitator		
+are_investigated_by	"lie_to, deceive"	are_blackmailed_by	thief:victim		
+are_copied_by	lead_astray	are_booed_by	master:apprentice		
+listen_to	are_lectured_by	read_the_works_of	master:apprentice		
+are_lectured_by	"listen_to, read_the_works_of"	"are_bored_by, are_indoctrinated_by"	hearer:lecturer		
+are_pitied_by	complain_to	are_bored_by	defendant:judge		
+are_rewarded_with	take_advantage_of	are_bored_by	suicide_bomber:virgin		
+are_wooed_by	marry	are_bored_by	woman:suitor		
+condescend_to	are_lectured_by	are_bored_by	snob:commoner		
+are_enticed_by	bow_down_to	are_bought_off_by	crooked_cop:criminal		
+are_sought_by	negotiate_with	are_bought_off_by	proselyte:guru		
+are_counseled_by	"disagree_with, argue_with"	are_bought_off_by	politician:lobbyist		
+are_dismissed_by	"sue, testify_against"	are_bought_off_by	assistant:supervisor		
+are_evicted_by	"threaten, sue, insult"	are_bought_off_by	lodger:landlord		
+are_funded_by	"praise, lie_for, testify_for"	are_bought_off_by	politician:lobbyist		
+are_baptized_by	cede_power_to	are_brainwashed_by	proselyte:evangelist		
+are_handled_by	identify_with	are_brainwashed_by	prostitute:madam		
+are_indoctrinated_by	believe_in	are_brainwashed_by	convert:missionary		
+are_kidnapped_by	identify_with	are_brainwashed_by	martyr:tormentor		
+are_recruited_by	"show_loyalty_to, identify_with"	are_brainwashed_by	suicide_bomber:imam		
+are_chased_by	underestimate	are_captured_by	fugitive:pursuer		
+are_hunted_by	underestimate	are_captured_by	beast:hunter		
+are_trusted_by	"disappoint, steal_from"	are_censured_by	viceroy:king		
+are_unimpressed_by	"disappoint, insult, taunt, fail_to_deliver_for"	are_challenged_by	underdog:bully		
+are_driven_around_by	condescend_to	are_cheated_by	passenger:driver		
+are_evaluated_by	"impress, suck_up_to, flatter, kiss_up_to"	are_chosen_by	pope:elector		
+are_interviewed_by	"pay_off, impress, blackmail"	are_chosen_by	interviewee:investigator		
+are_evaluated_by	"lick_up_to, kiss_up_to, impress, flatter"	are_coached_by	trainee:coach		
+are_enchanted_by	"welcome, let_in"	are_conquered_by	vassal:oppressor		
+are_impressed_by	"welcome, let_in"	are_conquered_by	vassal:oppressor		
+are_studied_by	inspire	are_copied_by	hero:historian		
+are_taught_by	"inspire, impress"	are_copied_by	apprentice:master		
+are_toppled_by	inspire	are_copied_by	aristocrat:peasant		
+are_tutored_by	"impress, inspire"	are_copied_by	tutee:coach		
+are_advised_by	"trust, listen_to"	are_corrupted_by	apprentice:mentor		
+are_appointed_by	lie_for	are_corrupted_by	ambassador:president		
+are_assisted_by	fall_in_love_with	are_corrupted_by	boss:subordinate		
+are_bought_off_by	"cede_power_to, bow_down_to"	are_corrupted_by	crooked_cop:criminal		
+are_bought_off_by	"cede_power_to, profit_from"	are_corrupted_by	thrall:controller		
+are_enlisted_by	"trust, fight_for"	are_corrupted_by	soldier:recruiter		
+are_favored_by	lie_for	are_corrupted_by	loyalist:aristocrat		
+are_flattered_by	"fall_in_love_with, sleep_with, trust"	are_corrupted_by	victim:temptress		
+are_handled_by	show_loyalty_to	are_corrupted_by	prostitute:madam		
+are_indoctrinated_by	lie_for	are_corrupted_by	imitator:master		
+are_inspired_by	"learn_from, identify_with, look_up_to"	are_corrupted_by	acolyte:adviser		
+are_led_by	"trust, look_up_to"	are_corrupted_by	theocrat:ayatollah		
+are_mentored_by	learn_from	are_corrupted_by	trainee:coach		
+are_molded_by	conspire_with	are_corrupted_by	princess:queen		
+are_suppressed_by	settle_with	are_corrupted_by	slave:puppeteer		
+are_taught_by	"worship, mimic"	are_corrupted_by	apprentice:master		
+are_traumatized_by	"harden_toward, identify_with"	are_corrupted_by	victim:terrorist		
+are_tricked_by	learn_from	are_corrupted_by	dupe:scammer		
+are_blessed_by	"rebel_against, turn_against"	are_cursed_by	clergyman:pope		
+are_funded_by	"fail_to_deliver_for, disappoint, lie_to, steal_from"	are_cut_off_by	entrepreneur:backer		
+are_supplied_by	"steal_from, lie_to, take_advantage_of, refuse_to_pay"	are_cut_off_by	dealer:wholesaler		
+are_visited_by	"rebuff, insult, offend, take_advantage_of"	are_cut_off_by	farmer:vet		
+are_educated_by	"trust, listen_to"	are_deceived_by	recruit:trainer		
+are_guided_by	"trust, look_up_to"	are_deceived_by	pilot:navigator		
+are_instructed_by	"learn_from, look_up_to"	are_deceived_by	beginner:mentor		
+are_seduced_by	"fall_in_love_with, sleep_with"	are_deflowered_by	maiden:swain		
+are_wooed_by	"fall_in_love_with, favor"	are_deflowered_by	maiden:swain		
+are_ordained_by	"disgust, undermine, disagree_with, misrepresent, brief_against"	are_defrocked_by	clergyman:bishop		
+answer_questions_from	are_contradicted_by	are_denounced_by	applicant:interviewer		
+are_chronicled_by	fail_to_impress	are_denounced_by	king:chronicler		
+are_disillusioned_by	break_with	are_denounced_by	militant:theocrat		
+are_examined_by	"lie_to, deceive, condescend_to"	are_denounced_by	witness:attorney		
+are_favored_by	"disappoint, undermine, disagree_with, misrepresent, brief_against, spread_lies_about"	are_denounced_by	flatterer:despot		
+are_hindered_by	"insult, mock"	are_denounced_by	politician:bureaucrat		
+are_investigated_by	"lie_to, deceive"	are_denounced_by	thief:victim		
+are_roused_by	"fail_to_deliver_for, disappoint"	are_humiliated_by	flatterer:despot		
+are_manipulated_by	"criticize, harden_toward"	are_denounced_by	initiate:adept		
+are_marketed_by	"fire, dump, break_with"	are_denounced_by	artist:promoter		
+are_probed_by	lie_to	are_denounced_by	captive:interrogator		
+are_prosecuted_by	"spread_lies_about, threaten"	are_denounced_by	defendant:prosecutor		
+are_questioned_by	"lie_to, deceive"	are_denounced_by	eyewitness:prosecutor		
+are_remembered_by	"disappoint, alienate"	are_denounced_by	hero:worshiper		
+are_studied_by	disappoint	are_denounced_by	hero:historian		
+are_sued_by	countersue	are_denounced_by	champion:sponsor		
+are_supplanted_by	spread_lies_about	are_denounced_by	actor:understudy		
+are_trusted_by	"betray, trick, deceive, exploit, profit_from"	are_denounced_by	intimate:insider		
+are_venerated_by	"disappoint, disgust, condescend_to"	are_denounced_by	martyr:extremist		
+work_with	disagree_with	are_denounced_by	comrade:collaborator		
+are_served_by	"exploit, overwork, oppress"	are_deposed_by	chief:follower		
+are_upstaged_by	"spread_lies_about, threaten"	are_deposed_by	artist:apprentice		
+imprison	"release, spread_lies_about"	are_deposed_by	despot:rival		
+are_disappointed_by	"insult, condescend_to, heckle, laugh_at"	are_despised_by	sage:follower		
+are_elected_by	"fail_to_deliver_for, disappoint"	are_despised_by	politician:voter		
+are_feared_by	taunt	are_despised_by	monster:victim		
+are_worshipped_by	"fail_to_deliver_for, disappoint, disappoint, fail_to_impress"	are_despised_by	celebrity:fan		
+are_underpaid_by	"steal_from, cheat"	are_uncovered_by	underling:boss		
+are_interviewed_by	"seek_advice_from, confer_with"	are_diagnosed_by	patient:doctor		
+are_abandoned_by	lose_faith_in	are_disillusioned_by	singer:fan		
+are_brainwashed_by	"argue_with, disagree_with, grow_suspicious_of"	are_disillusioned_by	suicide_bomber:imam		
+are_indoctrinated_by	grow_suspicious_of	are_disillusioned_by	disciple:guru		
+are_led_by	grow_suspicious_of	are_disillusioned_by	follower:apostle		
+are_radicalized_by	grow_suspicious_of	are_disillusioned_by	demonstrator:radical		
+are_impressed_by	"worship, mimic"	are_radicalized_by	demonstrator:radical		
+are_appointed_by	"disappoint, undermine, disagree_with, disrespect"	are_dismissed_by	bishop:pope		
+are_chosen_by	"disappoint, fail_to_deliver_for"	are_dismissed_by	pope:elector		
+are_commanded_by	"disrespect, steal_from"	are_dismissed_by	hireling:boss		
+are_handled_by	"fail_to_deliver_for, disappoint, fail_to_impress, spread_lies_about"	are_dismissed_by	prostitute:madam		
+are_published_by	"embarrass, spread_lies_about, lie_to, misrepresent"	are_dismissed_by	journalist:broadcaster		
+"are_pushed_too_far_by, are_overworked_by"	"complain_to, stand_up_to"	are_dismissed_by	trainee:coach		
+are_recruited_by	"disappoint, alienate, fail_to_deliver_for, fail_to_impress, steal_from"	are_dismissed_by	proselyte:guru		
+are_sought_by	"disgust, argue_with"	are_dismissed_by	proselyte:guru		
+are_trusted_by	"lead_astray, lie_to, deceive, cheat"	are_dismissed_by	abbess:bishop		
+are_interviewed_by	"lie_to, deceive"	are_disqualified_by	interviewee:investigator		
+are_picked_by	"condescend_to, take_advantage_of, exploit, deceive"	are_disqualified_by	nominee:nominator		
+are_flattered_by	"fail_to_deliver_for, disappoint, fail_to_impress"	are_disrespected_by	boss:bootlicker		
+are_respected_by	"corrupt, indoctrinate, lead_astray"	are_disrespected_by	master:imitator		
+are_taunted_by	"lick_up_to, kiss_up_to, suck_up_to,  curry_favor_with"	are_disrespected_by	underdog:bully		
+are_visited_by	"welcome, let_in"	are_disrespected_by	farmer:vet		
+are_haunted_by	"resent, fear, hate, despise"	are_driven_mad_by	headsman:prisoner		
+are_haunted_by	"beg_forgiveness_from, seek_forgiveness_from, sacrifice_to"	are_driven_mad_by	killer:victim		
+are_disillusioned_by	"mock, insult, criticize"	are_dumped_by	child:father		
+are_fielded_by	"fail_to_deliver_for, disappoint, fail_to_impress"	are_dumped_by	substitute:coach		
+are_funded_by	"fail_to_deliver_for, disappoint, lie_to, steal_from"	are_dumped_by	capitalist:backer		
+are_loved_by	"insult, disrespect"	are_dumped_by	boyfriend:girlfriend		
+are_marketed_by	"disappoint, disillusion, take_advantage_of, "	are_dumped_by	entertainer:publicist		
+are_promoted_by	"disappoint, disillusion, take_advantage_of, "	are_dumped_by	entertainer:publicist		
+are_published_by	"embarrass, spread_lies_about, fail_to_deliver_for"	are_dumped_by	novelist:publisher		
+are_selected_by	"disappoint, condescend_to, fail_to_deliver_for"	are_dumped_by	emperor:elector		
+are_signed_by	"disappoint, fail_to_deliver_for"	are_dumped_by	recruit:employer		
+are_supervised_by	"fail_to_deliver_for, disappoint, spread_lies_about"	are_dumped_by	player:coach		
+are_trained_by	"insult, disrespect, fail_to_deliver_for, fail_to_impress, fail_to_reward"	are_dumped_by	competitor:coach		
+are_transported_by	"insult, disrespect"	are_dumped_by	passenger:pilot		
+are_trusted_by	take_advantage_of	are_dumped_by	school_kid:schoolmaster		
+are_wooed_by	fall_in_love_with	are_dumped_by	lady:gentleman		
+are_accommodated_by	"disrespect, steal_from"	are_ejected_by	house_guest:homeowner		
+are_bored_by	"heckle, complain_to"	are_ejected_by	student:lecturer		
+are_cared_for_by	"exploit, steal_from, spread_lies_about"	are_ejected_by	patient:nurse		
+are_received_by	"insult, offend, condescend_to"	are_ejected_by	visitor:patient		
+are_flattered_by	"flirt_with, sleep_with"	are_enchanted_by	thrall:controller		
+are_bought_off_by	"cede_power_to, bow_down_to, obey"	are_enslaved_by	thrall:controller		
+are_defeated_by	"curry_favor_with, beg_forgiveness_from, seek_forgiveness_from"	are_enslaved_by	failure:rival		
+are_enchanted_by	"show_loyalty_to, fall_in_love_with"	are_enslaved_by	thrall:controller		
+are_mocked_by	"agree_with, identify_with"	are_entertained_by	victim:comedian		
+are_chosen_by	"trust, welcome"	are_enticed_by	punter:prostitute		
+are_impressed_by	"hire, recruit"	are_escorted_by	president:bodyguard		
+are_sought_by	"confer_with, talk_to"	are_evaluated_by	applicant:referee		
+are_accommodated_by	"disrespect, steal_from"	are_evicted_by	lodger:landlord		
+are_blessed_by	"rebel_against, turn_against"	are_excommunicated_by	clergyman:pope		
+are_killed_by	haunt	are_exorcized_by	casualty:killer		
+are_commanded_by	"disappoint, undermine, disagree_with"	are_expelled_by	monk:abbot		
+are_converted_by	"disagree_with, disappoint"	are_expelled_by	convert:evangelist		
+are_conquered_by	"work_for, settle_with, bow_down_to, cede_power_to"	are_exploited_by	vassal:oppressor		
+are_impressed_by	"marry, sleep_with"	are_exploited_by	woman:suitor		
+are_mystified_by	"worship, pray_to, sacrifice_to"	are_exploited_by	initiate:shaman		
+are_subdued_by	"cede_power_to, bow_down_to, curry_favor_with"	are_exploited_by	native:conqueror		
+are_represented_by	cede_power_to	"are_exploited_by, are_misrepresented_by, are_pushed_too_far_by"	boxer:promoter		
+are_persuaded_by	"show_loyalty_to, agree_with"	"are_exploited_by, are_pushed_too_far_by"	politician:lobbyist		
+are_disrespected_by	"curry_favor_with, bribe, blackmail, pay_off"	are_favored_by	mocker:victim		
+are_graded_by	"pay_off, bribe, blackmail"	are_favored_by	student:examiner		
+are_inspired_by	"worship, pray_to, sacrifice_to"	are_favored_by	believer:saint		
+are_interviewed_by	"pay_off, impress, blackmail"	are_favored_by	interviewee:investigator		
+are_rebuffed_by	"lick_up_to, kiss_up_to, suck_up_to,  curry_favor_with"	are_favored_by	suitor:beauty		
+are_bitten_by	starve	are_feared_by	jailer:captive		
+are_exploited_by	"turn_against, stand_up_to"	are_feared_by	monster:evil_genius		
+are_hardened_by	campaign_against	are_feared_by	native:colonist		
+are_incarcerated_by	campaign_against	are_feared_by	dissident:tyrant		
+are_mocked_by	stand_up_to	are_feared_by	wimp:bully		
+are_punished_by	testify_against	are_feared_by	gang_member:gang_lord		
+are_pushed_too_far_by	"turn_against, rise_against"	are_feared_by	minion:boss		
+are_represented_by	"disgust, threaten"	are_feared_by	leader:plenipotentiary		
+are_resisted_by	terrorize	are_feared_by	conqueror:native		
+are_ruled_by	learn_from	are_feared_by	commoner:ruler		
+are_worshipped_by	abuse	are_feared_by	hero:damsel		
+are_favored_by	"disappoint, undermine, disagree_with, misrepresent, brief_against, spread_lies_about, steal_from"	are_fired_by	brown_nose:boss		
+are_hired_by	"fail_to_deliver_for, disappoint, lie_to, cause_trouble_for, misrepresent"	are_fired_by	biographer:publisher		
+are_hired_by	"steal_from, take_advantage_of"	are_fired_by	pollster:politician		
+are_paid_by	"steal_from, lie_to, take_advantage_of, spread_lies_about"	are_fired_by	adviser:leader		
+are_promoted_by	"condescend_to, alienate, upstage"	are_fired_by	peon:boss		
+are_pushed_too_far_by	"fail_to_deliver_for, fail_to_impress"	are_fired_by	fashion_model:fashion_designer		
+are_retained_by	"condescend_to, fail_to_deliver_for, fail_to_impress"	are_fired_by	solicitor:defendant		
+are_trusted_by	"lead_astray, lie_to, deceive, cheat"	are_fired_by	chancellor:prime_minister		
+are_underpaid_by	"stand_up_to, criticize, negotiate_with"	are_fired_by	underling:boss		
+are_used_by	"disgust, disappoint, steal_from, fail_to_deliver_for"	are_fired_by	shipper:exporter		
+are_pursued_by	"elude, pay_off, buy_off, bribe, blackmail"	are_forgotten_by	criminal:prosecutor		
+are_worshipped_by	fail_to_impress	are_forgotten_by	god:disciple		
+are_pursued_by	hide_from	are_found_by	captive:guard		
+are_exploited_by	"obtain_sympathy_from, appeal_to"	are_freed_by	slave:boss		
+are_enslaved_by	"obtain_sympathy_from, appeal_to, buy_off"	are_freed_by	slave:boss		
+"are_detained_by, are_imprisoned_by, are_abducted_by"	"obtain_sympathy_from, are_pitied_by"	are_freed_by	captive:pursuer		
+are_coached_by	impress	are_handled_by	prostitute:madam		
+are_interviewed_by	impress	are_handled_by	prostitute:madam		
+are_assaulted_by	stand_up_to	are_hardened_by	target:attacker		
+are_attacked_by	"struggle_with, resist, learn_from"	are_hardened_by	prey:abuser		
+are_cheated_by	testify_against	are_hardened_by	dupe:swindler		
+are_hurt_by	"campaign_against, stand_up_to, sue"	are_hardened_by	serf:oppressor		
+are_influenced_by	"learn_from, identify_with, look_up_to"	are_hardened_by	adolescent:peer		
+are_molded_by	conspire_with	are_hardened_by	princess:queen		
+are_subjugated_by	learn_from	are_hardened_by	native:colonist		
+are_arrested_for_killing	testify_against	are_haunted_by	killer:victim		
+are_arrested_for_killing	mourn_for	are_haunted_by	mourner:victim		
+are_cursed_by	kill	are_haunted_by	master:slave		
+are_unimpressed_by	"sacrifice, abandon"	are_haunted_by	chess_player:pawn		
+are_hindered_by	"bribe, blackmail, pay_off, buy_off"	are_helped_by	politician:bureaucrat		
+are_helped_by	"refuse_to_pay, withhold_payment_from"	are_hindered_by	invalid:caregiver		
+are_attacked_by	"cede_power_to, surrender_to"	are_humiliated_by	prey:abuser		
+are_beaten_by	"surrender_to, cede_power_to"	are_humiliated_by	loser:winner		
+are_bored_by	heckle	are_humiliated_by	student:lecturer		
+are_criticized_by	"lick_up_to, kiss_up_to, flatter"	are_humiliated_by	theorist:critic		
+"are_uncovered_by, are_found_by"	"bribe, blackmail, pay_off, buy_off"	are_forgotten_by	forger:critic		
+"are_uncovered_by, are_found_by"	"seek_forgiveness_from, surrender_to"	"are_investigated_by, are_censured_by"	forger:critic		
+are_entertained_by	"insult, condescend_to, heckle, laugh_at"	"are_humiliated_by, are_booed_by"	guest:host		
+are_insulted_by	stand_up_to	are_respected_by	theorist:critic		
+are_insulted_by	stand_up_to	are_humiliated_by	theorist:critic		
+are_motivated_by	"fail_to_deliver_for, disappoint, fail_to_impress"	are_humiliated_by	athlete:coach		
+are_painted_by	"criticize, refuse_to_pay, withhold_payment_from"	are_humiliated_by	model:painter		
+are_photographed_by	"criticize, refuse_to_pay, withhold_payment_from"	are_humiliated_by	model:painter		
+are_popularized_by	"condescend_to, alienate"	"are_humiliated_by, are_abandoned_by"	actor:publicist		
+are_imitated_by	"criticize, sue"	are_mocked_by	luminary:biographer		
+are_savaged_by	complain_to	are_humiliated_by	chef:critic		
+are_sued_by	"settle_with, pay_off"	are_humiliated_by	defendant:plaintiff		
+are_undermined_by	"attack, complain_to, criticize"	are_humiliated_by	proposer:opposer		
+argue_before	are_undermined_by	lick_up_to	barrister:judge		
+are_abandoned_by	"cry_for, pine_for"	are_ignored_by	painter:muse		
+are_excommunicated_by	"beg_forgiveness_from, seek_forgiveness_from"	are_ignored_by	clergyman:pope		
+are_forgotten_by	"track_down, pursue"	are_spurned_by	god:disciple		
+are_obeyed_by	condescend_to	are_ignored_by	necromancer:minion		
+are_spurned_by	"cry_for, pine_for"	are_ignored_by	lady:suitor		
+are_overthrown_by	"beg_forgiveness_from, seek_forgiveness_from"	are_banished_by	oppressor:dissident		
+are_overthrown_by	inspire	are_imitated_by	oppressor:dissident		
+are_copied_by	inspire	are_impressed_by	luminary:impersonator		
+are_imitated_by	inspire	are_impressed_by	artist:copycat		
+are_impersonated_by	"inspire, coach"	are_impressed_by	celebrity:mimic		
+are_captured_by	"disgust, insult, mock, struggle_against"	are_incarcerated_by	beast:hunter		
+are_caught_by	"beg_forgiveness_from, seek_forgiveness_from"	are_incarcerated_by	adulterer:spouse		
+are_found_by	"beg_forgiveness_from, seek_forgiveness_from"	are_incarcerated_by	chief:follower		
+are_deposed_by	"beg_forgiveness_from, seek_forgiveness_from"	are_incarcerated_by	chief:follower		
+are_excommunicated_by	"beg_forgiveness_from, seek_forgiveness_from"	are_incarcerated_by	clergyman:pope		
+are_ruled_by	rise_against	are_incarcerated_by	commoner:ruler		
+are_toppled_by	"beg_forgiveness_from, seek_forgiveness_from"	are_incarcerated_by	aristocrat:peasant		
+are_baptized_by	"pray_with, listen_to"	are_indoctrinated_by	proselyte:evangelist		
+are_converted_by	"pray_with, listen_to"	are_indoctrinated_by	convert:evangelist		
+are_imprisoned_by	"beg_forgiveness_from, seek_forgiveness_from, identify_with"	are_indoctrinated_by	detainee:abductor		
+are_imprisoned_by	identify_with	are_indoctrinated_by	detainee:abductor		
+are_lectured_by	"trust, look_up_to"	are_indoctrinated_by	hearer:lecturer		
+are_mentored_by	"seek_advice_from, learn_from"	are_indoctrinated_by	intern:mentor		
+are_attracted_by	impress	are_interviewed_by	interviewee:investigator		
+are_defrauded_by	testify_against	are_intimidated_by	dupe:knave		
+are_followed_by	argue_with	are_intimidated_by	victim:terrorist		
+are_trusted_by	"lead_astray, lie_to, deceive, cheat"	are_investigated_by	lender:regulator		
+are_worshipped_by	"condescend_to, ignore"	are_kidnapped_by	captive:abductor		
+are_beaten_by	sue	are_killed_by	victim:assailant		
+are_bought_off_by	"testify_against, turn_against"	are_killed_by	thrall:controller		
+are_corrupted_by	testify_against	are_killed_by	aggressor:appeaser		
+are_denounced_by	"beg_forgiveness_from, seek_forgiveness_from"	are_killed_by	villain:victim		
+are_freed_by	"disappoint, spread_lies_about"	are_killed_by	survivor:liberator		
+are_healed_by	"refuse_to_pay, withhold_payment_from"	are_killed_by	native:witch_doctor		
+are_loved_by	betray	are_killed_by	beau:beauty		
+are_protected_by	"disgust, condescend_to"	are_killed_by	celebrity:minder		
+are_stalked_by	"disgust, disappoint"	are_killed_by	musician:groupie		
+are_tortured_by	taunt	are_killed_by	underdog:tormentor		
+are_impressed_by	praise	are_kissed_by	ringmaster:performer		
+are_accused_by	"bribe, pay_off, beg_forgiveness_from"	are_lectured_by	defendant:accuser		
+are_answered_by	condescend_to	are_lectured_by	discussant:respondent		
+are_disqualified_by	"beg_forgiveness_from, seek_forgiveness_from"	are_lectured_by	nominee:nominator		
+are_expelled_by	"beg_forgiveness_from, seek_forgiveness_from"	are_lectured_by	school_kid:schoolmaster		
+are_mentored_by	seek_advice_from	are_lectured_by	intern:mentor		
+are_worshipped_by	"disappoint, disgust, fail_to_deliver_for"	are_lectured_by	are_censured_by		
+are_worshipped_by	"disappoint, disgust, fail_to_deliver_for"	are_lectured_by	master:imitator		
+are_advised_by	cede_power_to	are_manipulated_by	apprentice:mentor		
+are_attended_by	"trust, delegate_to"	are_manipulated_by	groom:groomsman		
+are_brainwashed_by	"cede_power_to, obey"	are_manipulated_by	suicide_bomber:imam		
+are_flattered_by	trust	are_manipulated_by	dupe:charmer		
+are_healed_by	"look_up_to, show_loyalty_to"	are_manipulated_by	native:witch_doctor		
+are_introduced_by	"trust, confide_in"	are_manipulated_by	initiate:adept		
+are_lectured_by	"trust, look_up_to"	are_manipulated_by	hearer:lecturer		
+are_recruited_by	"cede_power_to, bow_down_to, curry_favor_with"	are_manipulated_by	double_agent:rival		
+are_rewarded_by	become_dependent_upon	are_manipulated_by	lackey:boss		
+are_ruled_by	"worship, curry_favor_with"	are_manipulated_by	commoner:ruler		
+are_seduced_by	"fall_in_love_with, sleep_with"	are_manipulated_by	maiden:swain		
+are_trusted_by	underestimate	are_manipulated_by	puppeteer:puppet		
+are_imitated_by	lead_astray	are_misrepresented_by	oppressor:dissident		
+are_driven_by	lead_astray	are_mocked_by	king:charioteer		
+are_encouraged_by	"fail_to_deliver_for, disappoint"	are_mocked_by	challenger:supporter		
+are_kidnapped_by	"kiss_up_to, lick_up_to"	are_mocked_by	captive:abductor		
+are_pitied_by	"rebuff, condescend_to"	are_mocked_by	defendant:judge		
+are_raised_by	identify_with	are_molded_by	princess:queen		
+are_supervised_by	"learn_from, look_up_to"	are_molded_by	juvenile:adult		
+are_abducted_by	identify_with	are_moved_by	tormentor:martyr		
+are_evaluated_by	"impress, suck_up_to, flatter, kiss_up_to"	are_nominated_by	applicant:referee		
+are_interviewed_by	"lick_up_to, kiss_up_to, blackmail,  flatter"	are_nominated_by	applicant:referee		
+are_deceived_by	threaten	are_obeyed_by	cop:suspect		
+are_feared_by	"bully, dominate, oppress"	are_obeyed_by	conqueror:native		
+are_resisted_by	"pay_off, bribe, blackmail"	are_obeyed_by	conqueror:native		
+are_resisted_by	subjugate	are_obeyed_by	conqueror:native		
+are_ruled_by	overthrow	are_obeyed_by	commoner:ruler		
+are_imitated_by	"condescend_to, underestimate"	are_overthrown_by	oppressor:dissident		
+are_abandoned_by	"cry_for, pine_for"	are_pitied_by	painter:muse		
+are_expelled_by	"beg_forgiveness_from, seek_forgiveness_from"	are_pitied_by	school_kid:schoolmaster		
+are_judged_by	"appeal_to, seek_forgiveness_from, beg_forgiveness_from"	are_pitied_by	defendant:judge		
+are_persecuted_by	"appeal_to, obtain_sympathy_from"	are_pitied_by	captive:torturer		
+are_recalled_by	"beg_forgiveness_from, seek_forgiveness_from"	are_pitied_by	ambassador:president		
+are_sued_by	obtain_sympathy_from	are_pitied_by	defendant:plaintiff		
+are_censured_by	"beg_forgiveness_from, seek_forgiveness_from"	are_promoted_by	prodigy:teacher		
+are_criticized_by	"blackmail, pay_off"	are_promoted_by	theorist:critic		
+are_fielded_by	"impress, deliver_for"	are_promoted_by	substitute:coach		
+are_manipulated_by	stand_up_to	are_promoted_by	peon:boss		
+are_taught_by	impress	are_promoted_by	apprentice:master		
+are_trained_by	impress	are_promoted_by	competitor:coach		
+are_underpaid_by	"impress, deliver_for"	are_promoted_by	underling:boss		
+are_controlled_by	"disappoint, undermine, disagree_with"	are_punished_by	militant:theocrat		
+are_rewarded_by	"fail_to_deliver_for, disappoint, fail_to_impress, spread_lies_about"	are_punished_by	gang_member:gang_lord		
+are_abused_by	"run_away_from, escape_from, break_free_of"	are_pursued_by	detainee:abuser		
+are_bored_by	"escape_from, break_free_of"	are_pursued_by	student:lecturer		
+are_detained_by	"escape_from, break_free_of"	are_pursued_by	detainee:captor		
+are_enslaved_by	"escape_from, break_free_of"	are_pursued_by	native:conqueror		
+are_guarded_by	"escape_from, break_free_of"	are_pursued_by	captive:guard		
+"are_detained_by, are_imprisoned_by, are_abducted_by"	"escape_from, break_free_of"	are_pursued_by	captive:abductor		
+are_imprisoned_by	"escape_from, break_free_of"	are_pursued_by	convict:gaoler		
+are_incarcerated_by	"escape_from, break_free_of"	are_pursued_by	convict:gaoler		
+are_missed_by	write_to	are_pursued_by	absentee:workmate		
+are_photographed_by	impress	are_pursued_by	bride:photographer		
+are_released_by	"pine_for, spread_lies_about"	are_pursued_by	captive:pursuer		
+"are_rejected_by, are_spurned_by"	pine_for	are_humiliated_by	slave:kidnapper		
+are_coached_by	look_up_to	are_pushed_too_far_by	trainee:coach		
+are_dominated_by	labor_for	are_pushed_too_far_by	peasant:overlord		
+are_persecuted_by	harden_toward	are_pushed_too_far_by	captive:torturer		
+are_rewarded_by	show_loyalty_to	are_pushed_too_far_by	minion:boss		
+are_supervised_by	curry_favor_with	are_pushed_too_far_by	hostage:guard		
+are_tormented_by	"appeal_to, appease"	are_pushed_too_far_by	victim:thug		
+are_tortured_by	"resist, struggle_with"	are_pushed_too_far_by	hostage:torturer		
+are_tutored_by	look_up_to	are_pushed_too_far_by	tutee:coach		
+are_victimized_by	"appeal_to, appease, negotiate_with, resent"	are_pushed_too_far_by	victim:bully		
+are_whipped_by	"bow_down_to, resent, beg_forgiveness_from"	are_pushed_too_far_by	slave:ruler		
+are_abducted_by	"kiss_up_to, lick_up_to, suck_up_to"	are_rebuffed_by	captive:abductor		
+are_attracted_by	"disgust, fail_to_impress"	are_rebuffed_by	buyer:marketer		
+are_appointed_by	"disappoint, undermine, disagree_with, misrepresent, spread_lies_about"	are_recalled_by	ambassador:president		
+are_banished_by	run_away_from	are_taunted_by	knight:king		
+are_deployed_by	"fail_to_deliver_for, disappoint, fail_to_impress"	are_recalled_by	soldier:commander		
+are_dispatched_by	"fail_to_deliver_for, disappoint, fail_to_impress"	are_recalled_by	courier:dispatcher		
+are_dispatched_by	"disappoint, undermine, disagree_with, misrepresent, brief_against"	are_recalled_by	herald:king		
+are_dumped_by	"stalk, spread_lies_about"	are_killed_by	ex:lover		
+are_dumped_by	"stalk, spread_lies_about"	are_killed_by	ex:lover		
+are_dumped_by	"obtain_sympathy_from, beg_forgiveness_from, seek_forgiveness_from"	are_recalled_by	ex:lover		
+are_trusted_by	"misrepresent, lie_to, deceive"	are_recalled_by	consul:president		
+are_fought_by	impress	are_recruited_by	devil:god		
+are_blackmailed_by	pay_off	are_released_by	blackmailer:victim		
+are_captured_by	"disgust, fail_to_impress"	are_released_by	captive:pursuer		
+are_charged_by	testify_for	are_released_by	felon:prosecutor		
+are_detained_by	sleep_with	are_released_by	detainee:captor		
+are_owed_by	threaten	are_repaid_by	creditor:debtor		
+are_worshipped_by	"abuse, terrorize, steal_from"	are_resisted_by	conqueror:native		
+are_abused_by	stand_up_to	are_respected_by	underdog:bully		
+are_beaten_by	escape_from	are_respected_by	hostage:guard		
+are_booed_by	stand_up_to	are_respected_by	referee:fan		
+are_ignored_by	stand_up_to	are_respected_by	photographer:fashion_designer		
+are_intimidated_by	stand_up_to	are_respected_by	victim:terrorist		
+are_mocked_by	stand_up_to	are_respected_by	wimp:bully		
+are_oppressed_by	rise_against	are_respected_by	vassal:oppressor		
+are_snatched_by	identify_with	are_respected_by	tormentor:martyr		
+are_taunted_by	stand_up_to	are_respected_by	underdog:bully		
+are_threatened_by	stand_up_to	are_respected_by	hostage:bank_robber		
+are_appointed_by	show_loyalty_to	are_rewarded_by	ambassador:president		
+are_dispatched_by	"impress, show_loyalty_to"	are_rewarded_by	herald:king		
+are_hired_by	lie_for	are_rewarded_by	pollster:politician		
+are_recruited_by	show_loyalty_to	are_rewarded_by	proselyte:guru		
+are_blackmailed_by	refuse_to_pay	are_ruined_by	gangster:godfather		
+are_attracted_by	"worship, fall_in_love_with"	are_ruled_by	acolyte:guru		
+are_defeated_by	"cede_power_to,  bow_down_to"	are_ruled_by	commoner:ruler		
+are_misrepresented_by	testify_against	are_savaged_by	firebrand:thug		
+are_reviewed_by	"disappoint, condescend_to, fail_to_deliver_for"	are_savaged_by	chef:critic		
+pray_for	"obtain_sympathy_from, are_pitied_by"	are_saved_by	victim:liberator		
+are_escorted_by	flirt_with	are_seduced_by	president:bodyguard		
+are_saved_by	"worship, pray_to, sacrifice_to"	are_shielded_by	captive:savior		
+are_targeted_by	impress	are_shielded_by	target:assassin		
+are_wanted_by	obtain_sympathy_from	are_shielded_by	outlaw:sheriff		
+are_attracted_by	"trust, flirt_with, play_with"	are_snatched_by	hostage:abductor		
+are_sought_by	"trust, talk_to, condescend_to"	are_snatched_by	detainee:abductor		
+are_managed_by	"fail_to_deliver_for, disappoint, spread_lies_about"	"are_dismissed_by, are_fired_by, are_sued_by"	footballer:manager		
+are_disillusioned_by	escape_from	are_sought_by	proselyte:guru		
+are_deflowered_by	fall_in_love_with	are_spurned_by	lady:suitor		
+are_dismissed_by	"stalk, spread_lies_about"	are_killed_by	ex:lover		
+are_dismissed_by	spread_lies_about	are_sued_by	ex:lover		
+are_dismissed_by	"beg_forgiveness_from, seek_forgiveness_from"	are_spurned_by	assistant:supervisor		
+are_funded_by	"fail_to_deliver_for, disappoint, lie_to, steal_from"	are_spurned_by	inventor:backer		
+are_healed_by	fall_in_love_with	are_spurned_by	native:witch_doctor		
+are_helped_by	fall_in_love_with	are_spurned_by	invalid:caregiver		
+are_painted_by	fall_in_love_with	are_spurned_by	model:painter		
+are_photographed_by	fall_in_love_with	are_spurned_by	model:photographer		
+are_admired_by	"flirt_with, sleep_with"	are_stalked_by	celebrity:admirer		
+are_attracted_by	sleep_with	are_stalked_by	buyer:marketer		
+are_monitored_by	"trust, confide_in"	are_stalked_by	child:minder		
+are_read_by	"disagree_with, disappoint, identify_with, inspire"	are_stalked_by	author:reader		
+are_attacked_by	"resist, fight_against, struggle_with"	are_subdued_by	native:conqueror		
+are_exploited_by	"rise_against, turn_against"	are_subdued_by	native:conqueror		
+are_defrauded_by	"punish, steal_from"	are_sued_by	dupe:knave		
+are_ejected_by	spread_lies_about	are_sued_by	house_guest:homeowner		
+are_financed_by	"disagree_with, argue_with, steal_from"	are_sued_by	champion:sponsor		
+are_financed_by	"steal_from, lie_to, take_advantage_of, spread_lies_about"	are_sued_by	champion:sponsor		
+are_fired_by	"threaten, intimidate"	are_sued_by	underling:boss		
+are_guaranteed_by	"exploit, manipulate"	are_sued_by	investor:underwriter		
+are_insured_by	deceive	are_sued_by	policyholder:underwriter		
+are_mocked_by	"insult, humiliate"	are_sued_by	victim:bully		
+are_offended_by	insult	are_sued_by	critic:discussant		
+are_paid_by	"steal_from, lie_to, take_advantage_of, spread_lies_about"	are_sued_by	landlord:lessee		
+are_supplied_by	refuse_to_pay	are_sued_by	dealer:wholesaler		
+are_impressed_by	promote	are_supplanted_by	boss:subordinate		
+are_upstaged_by	"compete_with, condescend_to"	are_supplanted_by	actor:understudy		
+overthrow	underestimate	are_suppressed_by	mutineer:authority		
+are_challenged_by	run_away_from	are_taunted_by	underdog:bully		
+are_snatched_by	"kiss_up_to, lick_up_to, suck_up_to"	are_taunted_by	hostage:abductor		
+are_tortured_by	"hate, appeal_to, seek_sympathy_from"	are_taunted_by	slave:oppressor		
+are_read_by	"insult, mock, offend"	are_threatened_by	author:reader		
+are_snatched_by	"resist, struggle_with"	are_threatened_by	detainee:abductor		
+are_despised_by	fear	are_toppled_by	despot:rebel		
+are_feared_by	subjugate	are_toppled_by	elitist:commoner		
+are_feared_by	"abuse, underestimate"	are_toppled_by	lord:peasant		
+are_obeyed_by	overwork	are_toppled_by	bishop:priest		
+are_served_by	"exploit, overwork, oppress"	are_toppled_by	aristocrat:peasant		
+are_worshipped_by	condescend_to	are_toppled_by	captive:abductor		
+are_diagnosed_by	"trust, cede_power_to"	are_treated_by	patient:doctor		
+are_snatched_by	"cede_power_to, bow_down_to, curry_favor_with"	are_trusted_by	detainee:abductor		
+are_tricked_by	learn_from	are_trusted_by	dupe:scammer		
+are_attacked_by	"deceive, trick"	are_underestimated_by	prey:abuser		
+are_worshipped_by	"inspire, coach, mentor"	are_unimpressed_by	artist:imitator		
+are_copied_by	inspire	are_upstaged_by	luminary:impersonator		
+are_flattered_by	"promote, favor"	are_upstaged_by	boss:bootlicker		
+are_imitated_by	"inspire, indoctrinate, teach"	are_upstaged_by	artist:copycat		
+are_impressed_by	"promote, advise, coach, teach"	are_upstaged_by	king:pawn		
+are_represented_by	promote	are_upstaged_by	leader:plenipotentiary		
+are_respected_by	inspire	are_upstaged_by	adult:juvenile		
+are_supported_by	inspire	are_upstaged_by	actor:understudy		
+are_unimpressed_by	"mock, insult, underestimate"	are_upstaged_by	artist:imitator		
+are_worshipped_by	"inspire, coach, mentor"	are_upstaged_by	athlete:fan		
+are_despised_by	"save, rescue"	are_worshipped_by	politician:voter		
+are_feared_by	"save, rescue"	are_worshipped_by	king:pawn		
+are_impressed_by	favor	are_worshipped_by	boss:bootlicker		
+are_mocked_by	"save, rescue"	are_worshipped_by	victim:bully		
+commission	"are_insulted_by, are_challenged_by"	argue_with	patron:architect		
+compose_with	"are_disrespected_by, are_insulted_by, are_lectured_by, are_mocked_by"	argue_with	composer:librettist		
+criticize	are_lectured_by	argue_with	detractor:rival		
+travel_with	are_bored_by	argue_with	companion:traveler		
+appease	"are_pushed_too_far_by, are_attacked_by"	attack	appeaser:aggressor		
+beg_forgiveness_from	"are_rebuffed_by, are_ignored_by, are_spurned_by"	attack	thief:victim		
+debate_with	are_misrepresented_by	attack	pontiff:theologian		
+disappoint	"are_denounced_by, are_beaten_by, are_humiliated_by"	attack	underling:boss		
+eject	are_threatened_by	attack	bouncer:troublemaker		
+negotiate_with	"are_deceived_by, are_disrespected_by, are_unimpressed_with"	attack	enemy:rival		
+perform_with	are_upstaged_by	attack	lion_tamer:lion		
+seek_forgiveness_from	are_rebuffed_by	attack	double_agent:master		
+speak_with	"are_insulted_by, are_disrespected_by"	attack	secretary:caller		
+surrender_to	"are_exploited_by, are_cheated_by"	attack	host:parasite		
+avoid	are_summoned_by	attend	patient:dentist		
+anger	"are_chastised_by,  are_scolded_by, are_humiliated_by"	beg_forgiveness_from	feudatory:emperor		
+copy	are_sued_by	beg_forgiveness_from	copycat:artist		
+criticize	are_rebuked_by	beg_forgiveness_from	critic:writer		
+disappoint	"are_chastised_by, are_scolded_by, are_humiliated_by"	beg_forgiveness_from	underling:boss		
+disfigure	"are_disgusted_by, are_cursed_by"	beg_forgiveness_from	stylist:actress		
+excommunicate	are_blackmailed_by	beg_forgiveness_from	priest:proselyte		
+execute	are_haunted_by	beg_forgiveness_from	executioner:hostage		
+fail_to_deliver_for	"are_dismissed_by, are_fired_by"	beg_forgiveness_from	underling:boss		
+humiliate	"are_attacked_by, are_denounced_by, are_despised_by"	beg_forgiveness_from	bully:victim		
+spread_lies_about	are_sued_by	beg_forgiveness_from	liar:victim		
+steal_from	"are_uncovered_by, are_reported_by"	beg_forgiveness_from	thief:victim		
+listen_to	"are_energized_by, are_flattered_by"	believe_in	listener:preacher		
+observe	are_impressed_by	believe_in	investor:entrepreneur		
+pray_to	are_rewarded_by	believe_in	believer:god		
+defend	are_deceived_by	betray	attorney:plaintiff		
+disappoint	"are_chastised_by, are_scolded_by, are_humiliated_by"	betray	underling:boss		
+facilitate	"are_trusted_by, are_respected_by"	betray	abetter:offender		
+identify_with	are_corrupted_by	betray	imitator:master		
+manipulate	are_trusted_by	betray	charmer:dupe		
+marry	are_betrayed_by	betray	bride:husband		
+marry	are_bored_by	betray	groom:bride		
+protect	"are_disillusioned_by, are_exploited_by, are_deceived_by"	betray	functionary:ruler		
+spy_on	are_trusted_by	betray	spy:enemy		
+kiss_up_to	"are_ignored_by, are_rebuffed_by"	blackmail	oligarch:politician		
+lick_up_to	"are_ignored_by, are_rebuffed_by"	blackmail	oligarch:politician		
+observe	"are_disgusted_by, are_shocked_by"	blackmail	blackmailer:victim		
+spy_on	"are_disgusted_by, are_shocked_by"	blackmail	blackmailer:victim		
+cast_off	are_bought_off_by	bow_down_to	vassal:emperor		
+heckle	are_humiliated_by	bow_down_to	heckler:comedian		
+subjugate	"are_deposed_by, are_toppled_by"	bow_down_to	chief:inferior		
+indoctrinate	"are_trusted_by, are_respected_by, are_obeyed_by, "	brainwash	missionary:convert		
+obey	are_bored_by	break_free_of	thrall:controller		
+cheat_on	"are_stalked_by, are_caught_by"	break_up_with	adulterer:spouse		
+cheat_with	"are_bored_by, are_lectured_by"	break_up_with	mistress:lover		
+date	"are_disillusioned_by, are_exploited_by, are_deceived_by"	break_up_with	girlfriend:boy		
+are_disillusioned_by	"are_disgusted_by, are_pushed_too_far_by, are_deceived_by"	break_with	demonstrator:radical		
+argue_with	are_censured_by	break_with	theologian:pope		
+cede_power_to	"are_manipulated_by, are_exploited_by, are_disgusted_by, are_shocked_by"	break_with	proselyte:guru		
+follow	"are_cheated_by, are_deceived_by, are_disrespected_by"	break_with	apostle:guru		
+grow_suspicious_of	"are_pushed_too_far_by, are_disillusioned_by"	break_with	disciple:guru		
+identify_with	are_rebuffed_by	break_with	tormentor:martyr		
+lose_faith_in	are_denounced_by	break_with	adorer:god		
+propose_to	are_rebuffed_by	break_with	gentleman:lady		
+curry_favor_with	"are_ignored_by, are_rebuffed_by"	"buy_off, bribe, blackmail"	oligarch:politician		
+kiss_up_to	"are_ignored_by, are_rebuffed_by"	"buy_off, bribe, blackmail"	oligarch:politician		
+lick_up_to	"are_ignored_by, are_rebuffed_by"	"buy_off, bribe, blackmail"	oligarch:politician		
+admire	"are_disrespected_by, are_spurned_by, are_humiliated_by"	campaign_against	reader:writer		
+campaign_for	"are_unimpressed_by, are_ignored_by"	campaign_against	voter:politician		
+criticize	are_rebuked_by	campaign_against	critic:writer		
+evict	are_sued_by	campaign_against	landlord:boarder		
+hate	are_disgusted_by	campaign_against	fascist:communist		
+leak_to	are_named_by	campaign_against	spin_doctor:reporter		
+perform_for	are_pushed_too_far_by	campaign_against	musician:choreographer		
+renounce	"are_punished_by, are_lectured_by"	campaign_against	atheist:god		
+resent	"are_criticized_by, are_denounced_by, are_chastised_by, are_silenced_by"	campaign_against	mutineer:tyrant		
+satirize	are_silenced_by	campaign_against	satirist:insider		
+support	"are_disgusted_by, are_shocked_by"	campaign_against	guide:tourist		
+"work_for, labor_for"	"are_appreciated_by, are_respected_by"	sweat_for	laborer:hirer		
+sweat_for	"are_abused_by, are_exploited_by, are_mistreated_by, are_underpaid_by, are_underappreciated_by"	campaign_against	laborer:hirer		
+vote_for	"are_disillusioned_by, are_exploited_by, are_deceived_by"	campaign_against	supporter:candidate		
+campaign_against	"are_blackmailed_by, are_bought_off_by, are_defeated_by"	campaign_for	opponent:rival		
+track_down	are_attacked_by	capture	pirate:captive		
+marry	are_beaten_by	cast_off	prince:princess		
+rise_against	are_feared_by	cast_off	vassal:emperor		
+are_eluded_by	lay_a_trap_for	catch	hunter:prey		
+lay_a_trap_for	are_underestimated_by	catch	chaser:prey		
+search_for	are_underestimated_by	catch	bachelor:wife		
+believe_in	are_flattered_by	cede_power_to	spiritualist:medium		
+condescend_to	are_humiliated_by	cede_power_to	child:father		
+fight_against	are_impressed_by	cede_power_to	god:monster		
+educate	are_lectured_by	cede_power_to	parent:child		
+fight_against	are_overrun_by	cede_power_to	settler:native		
+marry	are_upstaged_by	divorce	mystery_writer:detective		
+let_in	"are_exploited_by, are_cheated_by"	cede_power_to	host:cuckoo		
+look_up_to	are_manipulated_by	cede_power_to	child:father		
+lose_to	are_humiliated_by	cede_power_to	opponent:rival		
+overwork	are_upstaged_by	cede_power_to	controller:spy		
+play_against	are_defeated_by	cede_power_to	competitor:opponent		
+promote	"are_supplanted_by, are_upstaged_by"	cede_power_to	crime_boss:lieutenant		
+"hire, enlist, promote"	are_upstaged_by	cede_power_to	appellant:representative		
+sacrifice	are_upstaged_by	cede_power_to	character:screenwriter		
+snatch	are_seduced_by	cede_power_to	bank_robber:hostage		
+speak_through	"are_tricked_by, are_manipulated_by, are_blackmailed_by"	cede_power_to	leader:spokesperson		
+supervise	"are_usurped_by,  are_overthrown_by, are_seduced_by, are_blackmailed_by"	cede_power_to	bishop:vicar		
+surrender_to	are_humiliated_by	cede_power_to	opponent:rival		
+take_up_with	are_manipulated_by	cede_power_to	king:mistress		
+talk_through	"are_misrepresented_by, are_mistaken_for"	cede_power_to	defendant:mouthpiece		
+are_hired_by	"impress, believe_in"	are_promoted_by	salesman:retailer		
+cheat_with	"are_bored_by, are_lectured_by"	cheat_on	mistress:lover		
+marry	are_bored_by	cheat_on	adulterer:spouse		
+marry	are_bored_by	cheat_on	princess:prince		
+supply	are_underpaid_by	cheat_on	wholesaler:dealer		
+take_up_with	"are_disrespected_by, are_bored_by"	cheat_on	king:mistress		
+observe	are_impressed_by	fall_in_love_with	voter:politician		
+"buy_off, bribe, blackmail"	"are_obeyed_by, are_favored_by"	manipulate	oligarch:politician		
+negotiate_with	"are_feared_by, are_resisted_by"	coerce	politician:rival		
+fall_in_love_with	are_worshipped_by	commit_to	sweetheart:lover		
+show_loyalty_to	"are_respected_by, are_rewarded_by"	commit_to	sweetheart:lover		
+take_up_with	"are_impressed_by, are_flattered_by"	commit_to	king:mistress		
+coach	are_upstaged_by	compete_against	mentor:apprentice		
+compete_with	"are_insulted_by, are_challenged_by"	compete_against	foe:fighter		
+flirt_with	are_ignored_by	compliment	flatterer:despot		
+command	are_driven_mad_by	condemn	commander:soldier		
+pray_with	"are_disgusted_by, are_shocked_by"	condemn	believer:coreligionist		
+worship_with	"are_disgusted_by, are_shocked_by"	condemn	believer:coreligionist		
+advise	"are_disrespected_by, are_underpaid_by, are_spurned_by"	condescend_to	caddy:golfer		
+attract	"are_disgusted_by, are_shocked_by"	condescend_to	entertainer:fan		
+chat_with	"are_bored_by, are_lectured_by"	condescend_to	interviewee:interviewer		
+compete_with	are_bored_by	condescend_to	competitor:opponent		
+conquer	are_feared_by	condescend_to	conqueror:vassal		
+eject	are_lectured_by	condescend_to	homeowner:house_guest		
+entertain	are_heckled_by	condescend_to	jester:king		
+"support, help, sympathize_with"	are_thanked_by	condescend_to	benefactor:beneficiary		
+ignore	"are_chastised_by,  are_scolded_by"	condescend_to	god:supplicant		
+lecture_to	are_ignored_by	condescend_to	instructor:student		
+pander_to	"are_disrespected_by, are_underappreciated_by"	condescend_to	marketer:retailer		
+play_for	"are_complimented_by, are_heckled_by, are_flattered_by, are_underpaid_by"	condescend_to	musician:listener		
+play_with	are_bored_by	condescend_to	bowler:fielder		
+reach_out_to	are_disgusted_by	condescend_to	televangelist:sinner		
+rule_over	are_resisted_by	condescend_to	conqueror:native		
+rule_over	"are_bored_by, are_unimpressed_by"	condescend_to	overlord:lackey		
+sell_to	"are_disrespected_by, are_underappreciated_by"	condescend_to	content_provider:subscriber		
+speak_to	are_bored_by	condescend_to	eyewitness:reporter		
+subjugate	are_worshipped_by	condescend_to	conqueror:native		
+sympathize_with	"are_disrespected_by, are_cheated_by, are_lectured_by"	condescend_to	sympathizer:activist		
+talk_to	"are_deceived_by, are_bored_by"	condescend_to	investigator:insider		
+tip	are_disrespected_by	condescend_to	diner:waiter		
+whip	"are_begged_by, are_cursed_by"	condescend_to	dominatrix:john		
+woo	are_rebuffed_by	condescend_to	suitor:beauty		
+summon	"are_obeyed_by, are_trusted_by"	confer_with	king:envoy		
+confer_with	"are_trusted_by, are_manipulated_by"	confide_in	cop:lawyer		
+share_stories_with	are_trusted_by	confide_in	confidante:friend		
+visit	are_welcomed_by	consult	patient:doctor		
+blackmail	are_feared_by	control	oligarch:politician		
+entertain	are_worshipped_by	control	comedian:fan		
+impress	are_worshipped_by	control	headmaster:student		
+assist	"are_inspired_by, are_impressed_by"	copy	staffer:congressman		
+diagnose	are_trusted_by	counsel	psychiatrist:patient		
+instruct	are_disappointed_by	criticize	sage:follower		
+review	"are_unimpressed_by, are_bored_by"	criticize	peer:professional		
+operate_on	are_feared_by	cure	surgeon:patient		
+assist	are_underpaid_by	curry_favor_with	spotter:archer		
+compliment	"are_trusted_by, are_favored_by"	curry_favor_with	flatterer:despot		
+rely_on	"are_betrayed_by, are_abandoned_by"	curse	refugee:host		
+answer	are_contradicted_by	debate	critic:discussant		
+disagree_with	"are_insulted_by, are_challenged_by"	debate	believer:opposer		
+deliver_to	are_insulted_by	deceive	messenger:general		
+campaign_against	"are_censured_by, are_heckled_by, are_threatened_by"	defeat	opponent:rival		
+fight	are_underestimated_by	defeat	caliph:infidel		
+suppress	are_resisted_by	defeat	fighter:enemy		
+deceive	"are_uncovered_by, are_reported_by"	beg_forgiveness_from	deceiver:believer		
+deceive	are_trusted_by	defraud	deceiver:believer		
+are_informed_by	are_deceived_by	denounce	listener:lecturer		
+debrief	are_deceived_by	denounce	spymaster:spy		
+examine	are_deceived_by	denounce	attorney:witness		
+inspire	"are_copied_by, are_upstaged_by"	denounce	artist:imitator		
+study	are_disillusioned_by	denounce	anthropologist:native		
+support	are_betrayed_by	denounce	fanatic:extremist		
+recruit	are_impressed_by	deploy	spymaster:spy		
+build_for	"are_exploited_by, are_pushed_too_far_by"	destroy	builder:architect		
+denounce	are_attacked_by	destroy	denunciator:rival		
+favor	"are_exploited_by, are_cheated_by"	destroy	boss:bootlicker		
+identify_with	are_corrupted_by	destroy	imitator:master		
+spread_lies_about	are_feared_by	destroy	liar:victim		
+prey_on	are_feared_by	devour	persecutor:victim		
+observe	"are_disgusted_by, are_shocked_by"	diagnose	doctor:patient		
+evaluate	are_concerned_about	diagnose	doctor:patient		
+believe_in	"are_inspired_by, are_brainwashed_by"	die_for	spiritualist:medium		
+curry_favor_with	are_favored_by	die_for	lapdog:imperialist		
+defend	are_respected_by	die_for	samurai:warlord		
+follow	"are_inspired_by, are_brainwashed_by, are_molded_by"	die_for	apostle:guru		
+"learn_from, study_under"	"are_brainwashed_by, are_indoctrinated_by"	die_for	suicide_bomber:imam		
+take_up_with	are_manipulated_by	die_for	cheater:mistress		
+design_for	are_lectured_by	disagree_with	architect:builder		
+obey	"are_disillusioned_by,  are_deceived_by"	disagree_with	Catholic:pope		
+confess_to	are_forgiven_by	disappoint	penitent:confessor		
+curry_favor_with	are_promoted_by	disappoint	leader:elector		
+govern_for	are_pushed_too_far_by	disappoint	satrap:emperor		
+govern_for	are_trusted_by	disappoint	viceroy:king		
+inherit_from	are_inspired_by	disappoint	heir:landowner		
+nurture	are_worshipped_by	disappoint	nursemaid:infant		
+serve	are_pushed_too_far_by	disappoint	assistant:boss		
+work_for	are_pushed_too_far_by	disappoint	hoodlum:gang_lord		
+abuse	are_bitten_by	disfigure	victimizer:victim		
+beautify	"are_sued_by, are_disrespected_by, are_underpaid_by"	disfigure	beautician:woman		
+enhance	are_disrespected_by	disfigure	beautician:beauty		
+operate_on	"are_disrespected_by, are_pushed_too_far_by"	disfigure	plastic_surgeon:celebrity		
+pine_for	are_mocked_by	disfigure	sweetheart:lover		
+style_for	"are_insulted_by, are_humiliated_by"	disfigure	stylist:actress		
+torture	are_cursed_by	disfigure	abuser:detainee		
+treat	"are_insulted_by, are_disrespected_by"	disfigure	dentist:patient		
+appoint	are_upstaged_by	dismiss	autocrat:propagandist		
+dispatch	are_misrepresented_by	dismiss	regulator:inspector		
+enlist	are_misrepresented_by	dismiss	commissioner:deputy		
+recruit	"are_deceived_by, are_exploited_by, are_unimpressed_with"	dismiss	hirer:hireling		
+obey	"are_deceived_by, are_disgusted_by, are_exploited_by"	disobey	priest:bishop		
+interview	"are_disgusted_by, are_shocked_by"	disqualify	proposer:applicant		
+nominate	"are_disillusioned_by, are_disappointed_by"	disqualify	proposer:applicant		
+live_with	"are_disgusted_by, are_pushed_too_far_by"	divorce	wife:spouse		
+marry	are_betrayed_by	divorce	bride:husband		
+marry	"are_deceived_by, are_bored_by"	divorce	gentleman:lady		
+provide_for	"are_exploited_by, are_pushed_too_far_by, are_underappreciated_by,"	divorce	dad:mom		
+enchant	"are_worshipped_by, are_obeyed_by, are_trusted_by"	dominate	king:pawn		
+intimidate	are_feared_by	dominate	king:pawn		
+attract	are_bored_by	dump	rapper:bitch		
+consort_with	"are_exploited_by, are_cheated_by"	dump	aristocrat:courtesan		
+drive_for	are_disrespected_by	dump	chauffeur:general		
+fall_in_love_with	"are_deceived_by, are_disrespected_by, are_bored_with"	dump	suitor:lover		
+finance	"are_cheated_by, are_deceived_by, are_disrespected_by"	dump	backer:capitalist		
+invest_in	"are_insulted_by, are_deceived_by, are_disrespected_by"	dump	investor:entrepreneur		
+pick	are_disrespected_by	dump	nominator:candidate		
+seduce	are_bored_by	dump	geisha:client		
+supply_to	"are_disrespected_by, are_cheated_by"	dump	manufacturer:exporter		
+support	are_betrayed_by	dump	adulterer:mistress		
+train	"are_upstaged_by, are_disrespected_by, are_underappreciated_by"	dump	artisan:apprentice		
+transport	are_disrespected_by	dump	driver:passenger		
+are_exploited_by	are_pushed_too_far_by	eject	host:cuckoo		
+cater_to	"are_exploited_by, are_disrespected_by, are_pushed_too_far_by"	eject	host:house_guest		
+devour	are_sickened_by	eject	fiend:victim		
+educate	"are_driven_mad_by, are_disrespected_by"	eject	parent:child		
+host	are_insulted_by	eject	curator:critic		
+let_in	"are_exploited_by, are_cheated_by"	eject	host:cuckoo		
+let_in	"are_offended_by, are_insulted_by, are_disrespected_by"	eject	host:guest		
+navigate_for	"are_disrespected_by, are_pushed_too_far_by"	eject	spotter:driver		
+receive	"are_disrespected_by, are_lectured_by, are_chastised_by, are_insulted_by"	eject	ambassador:courier		
+welcome	are_insulted_by	eject	host:guest		
+abandon	are_pursued_by	elude	seducer:woman		
+escape_from	are_pursued_by	elude	detainee:abuser		
+flatter	"are_trusted_by, are_welcomed_by"	enchant	enchanter:thrall		
+lecture_to	are_impressed_by	encourage	instructor:student		
+compete_against	are_impressed_by	enlist	commissioner:deputy		
+fight_against	are_impressed_by	enlist	commissioner:deputy		
+enchant	"are_worshipped_by, are_obeyed_by, are_trusted_by"	enslave	enchanter:thrall		
+rule	are_worshipped_by	enslave	aristocrat:peasant		
+rule	are_resisted_by	enslave	master:slave		
+seduce	are_worshipped_by	enslave	geisha:client		
+seek	are_ignored_by	"kiss_up_to, lick_up_to"	advocate:proselyte		
+spy_on	"are_impressed_by, are_intrigued_by"	fall_in_love_with	headhunter:recruit		
+hide_from	are_found_by	escape_from	fugitive:pursuer		
+interview	are_disillusioned_by	spread_lies_about	nominator:candidate		
+accommodate	"are_frustrated_by, are_deceived_by, are_disrespected_by, are_cheated_by"	evict	landlord:boarder		
+lease_to	are_disrespected_by	evict	landowner:lessee		
+rent_to	"are_exploited_by, are_cheated_by, are_underpaid_by, are_pushed_too_far_by"	evict	landowner:farmer		
+baptise	are_disappointed_by	excommunicate	priest:proselyte		
+condemn	are_mocked_by	excommunicate	pontiff:heretic		
+govern_via	are_misrepresented_by	execute	sultan:vizier		
+rescue	are_trusted_by	exploit	knight:damsel		
+sign_up	are_trusted_by	exploit	publisher:author		
+model_for	"are_pushed_too_far_by, are_overworked_by"	fail_to_deliver_for	fashion_model:fashion_designer		
+negotiate_for	"are_pushed_too_far_by, are_overworked_by"	fail_to_deliver_for	diplomat:president		
+protect	"are_underappreciated_by, are_pushed_too_far_by, are_underpaid_by"	fail_to_deliver_for	flak:celebrity		
+report_to	"are_underpaid_by, are_underappreciated_by"	fail_to_deliver_for	traitor:paymaster		
+represent	"are_underpaid_by, are_underappreciated_by"	fail_to_deliver_for	spokesman:celebrity		
+serve	are_pushed_too_far_by	fail_to_deliver_for	bailiff:sheriff		
+supply	"are_cheated_by, are_deceived_by, are_disrespected_by"	fail_to_deliver_for	wholesaler:dealer		
+train_with	are_pushed_too_far_by	fail_to_deliver_for	jockey:trainer		
+wait_on	are_pushed_too_far_by	fail_to_deliver_for	servant:aristocrat		
+work_for	are_trusted_by	fail_to_deliver_for	assistant:supervisor		
+work_for	are_pushed_too_far_by	fail_to_deliver_for	hoodlum:gang_lord		
+abuse	"are_moved_by, sympathize_with"	fall_in_love_with	captor:captive		
+argue_with	are_impressed_by	fall_in_love_with	opposer:believer		
+avoid	are_pursued_by	fall_in_love_with	nerd:girl		
+betray	are_forgiven_by	fall_in_love_with	charmer:dupe		
+capture	are_seduced_by	fall_in_love_with	pirate:captive		
+compete_with	are_impressed_by	fall_in_love_with	candidate:competitor		
+date	"are_impressed_by, are_charmed_by"	fall_in_love_with	girlfriend:boyfriend		
+detain	"are_moved_by, are_seduced_by"	fall_in_love_with	guard:intruder		
+enslave	"are_moved_by, are_seduced_by"	fall_in_love_with	manipulator:thrall		
+fail_to_deliver_for	are_forgiven_by	fall_in_love_with	underling:boss		
+guard	"are_seduced_by, are_inspired_by"	fall_in_love_with	gaoler:convict		
+inspire	"are_painted_by, are_photographed_by"	fall_in_love_with	model:painter		
+kidnap	are_seduced_by	fall_in_love_with	kidnapper:hostage		
+listen_to	are_moved_by	fall_in_love_with	barman:customer		
+listen_to	are_entertained_by	fall_in_love_with	listener:storyteller		
+massage	are_seduced_by	fall_in_love_with	masseur:client		
+paint	are_inspired_by	fall_in_love_with	artist:model		
+reject	are_seduced_by	fall_in_love_with	iconoclast:sacred_cow		
+rescue	are_moved_by	fall_in_love_with	knight:damsel		
+respect	"are_inspired_by, are_impressed_by"	fall_in_love_with	competitor:opponent		
+save	are_worshipped_by	fall_in_love_with	messiah:apostle		
+seek_advice_from	are_inspired_by	fall_in_love_with	intern:mentor		
+show_loyalty_to	are_rewarded_by	fall_in_love_with	princess:prince		
+sleep_with	are_deflowered_by	fall_in_love_with	lady:suitor		
+sleep_with	are_impressed_by	fall_in_love_with	mistress:adulterer		
+travel_with	are_entertained_by	fall_in_love_with	companion:traveler		
+work_with	are_saved_by	fall_in_love_with	mariner:shipmate		
+rank	"are_bought_off_by, are_seduced_by"	favor	nominator:candidate		
+bow_down_to	"are_oppressed_by, are_persecuted_by, are_humiliated_by"	fear	vassal:emperor		
+decapitate	are_haunted_by	fear	headsman:prisoner		
+imprison	are_despised_by	fear	despot:rebel		
+persecute	are_despised_by	fear	dictator:victim		
+underestimate	are_bitten_by	fear	aggressor:opponent		
+baptize	are_moved_by	feel_sorry_for	priest:baby		
+break_up_with	are_stalked_by	feel_sorry_for	girl:boyfriend		
+cast_out	are_concerned_about	feel_sorry_for	god:demon		
+haunt	are_feared_by	feel_sorry_for	casualty:widow		
+fight_for	are_disrespected_by	fight_against	abolitionist:slave		
+fight_with	"are_insulted_by, are_disrespected_by"	fight_against	sidekick:hero		
+fight_against	"are_blackmailed_by, are_bought_off_by, are_moved_by, are_impressed_by"	fight_with	villain:hero		
+search_for	are_underestimated_by	find	bachelor:wife		
+act_via	"are_deceived_by, are_disrespected_by, are_unimpressed_with"	fire	leader:operative		
+communicate_through	are_misrepresented_by	fire	priest:oracle		
+communicate_via	are_misrepresented_by	fire	ghost:medium		
+delegate_to	"are_disappointed_by, are_upstaged_by"	fire	boss:subordinate		
+hire	"are_disillusioned_by, are_exploited_by, are_deceived_by"	fire	car_dealer:car_salesman		
+debate_with	are_misrepresented_by	humiliate	appellant:representative		
+speak_through	are_misrepresented_by	fire	leader:spokesperson		
+fall_in_love_with	are_ignored_by	flatter	bootlicker:boss		
+chat_with	"are_impressed_by, are_attracted_by, are_flattered_by"	flirt_with	interviewee:interviewer		
+talk_to	are_attracted_by	flirt_with	flatterer:despot		
+travel_with	are_attracted_by	flirt_with	flatterer:despot		
+woo	are_kissed_by	flirt_with	suitor:beauty		
+listen_to	are_entertained_by	follow	groupie:celebrity		
+condemn	"sympathize_with, are_moved_by"	forgive	evangelical:sinner		
+defeat	are_bought_off_by	forgive	victor:rival		
+abuse	"are_moved_by, sympathize_with, pity"	free	victimizer:victim		
+"learn_from, study_under"	"are_deceived_by, are_manipulated_by"	grow_suspicious_of	beginner:mentor		
+campaign_against	are_humiliated_by	hate	opponent:rival		
+curry_favor_with	are_humiliated_by	hate	flatterer:despot		
+dislike	"are_insulted_by, are_mocked_by, are_taunted_by, are_humiliated_by"	hate	butcher:vegetarian		
+encourage	"are_supplanted_by, are_upstaged_by"	hate	vendor:salesperson		
+entertain	are_ignored_by	hate	gondolier:tourist		
+love	"are_betrayed_by, are_cheated_by"	hate	husband:wife		
+obtain_sympathy_from	are_pitied_by	hate	captive:torturer		
+seek_forgiveness_from	are_pitied_by	hate	candidate:detractor		
+leave_behind	are_remembered_by	haunt	casualty:widow		
+listen_to	are_bored_by	heckle	barman:customer		
+abandon	are_pursued_by	hide_from	seducer:woman		
+accuse	are_threatened_by	hide_from	accuser:suspect		
+disappoint	"are_threatened_by, are_intimidated_by"	hide_from	underling:boss		
+encourage	are_stalked_by	hide_from	devil:sinner		
+escape_from	are_pursued_by	hide_from	hostage:kidnapper		
+refuse_to_pay	are_threatened_by	hide_from	hirer:hireling		
+release	are_stalked_by	hide_from	savior:captive		
+run_away_from	are_pursued_by	hide_from	hostage:kidnapper		
+seek_advice_from	are_humiliated_by	"spread_lies_about, kill, attack"	drug_dealer:chemist		
+communicate_with	"are_disrespected_by, are_insulted_by, are_driven_mad_by"	humiliate	bomber:dispatcher		
+debate	"are_misrepresented_by, are_bored_by"	humiliate	believer:opposer		
+dress	are_upstaged_by	humiliate	designer:model		
+entertain	are_heckled_by	humiliate	jester:king		
+imitate	are_heckled_by	humiliate	aspirant:role_model		
+incarcerate	are_bitten_by	humiliate	jailer:captive		
+manage	are_disrespected_by	humiliate	choreographer:dancer		
+pamper	are_betrayed_by	humiliate	housewife:husband		
+photograph	"are_attacked_by, are_bitten_by"	humiliate	paparazzo:celebrity		
+pitch_at	are_insulted_by	humiliate	bowler:batter		
+settle_with	are_insulted_by	humiliate	mocker:victim		
+sire	are_unimpressed_by	humiliate	king:prince		
+summon	"are_disobeyed_by, are_ignored_by"	humiliate	medium:ghost		
+trick	are_trusted_by	humiliate	swindler:dupe		
+fall_in_love_with	are_abandoned_by	hunt	abuser:prey		
+apprehend	"are_moved_by, are_inspired_by"	identify_with	constable:criminal		
+"learn_from, study_under"	"are_molded_by, are_impressed_by"	identify_with	junior:senior		
+persecute	are_moved_by	identify_with	tormentor:martyr		
+pick_on	are_moved_by	identify_with	bully:wimp		
+profit_from	are_moved_by	identify_with	pimp:hooker		
+surrender_to	are_respected_by	identify_with	loser:winner		
+sympathize_with	are_inspired_by	identify_with	sympathizer:activist		
+torment	are_moved_by	identify_with	tormentor:martyr		
+cede_power_to	are_inspired_by	imitate	loser:winner		
+compete_with	are_impressed_by	imitate	competitor:opponent		
+inspire	are_upstaged_by	imitate	artist:imitator		
+"learn_from, study_under"	"are_molded_by, are_impressed_by"	imitate	junior:senior		
+overthrow	"are_inspired_by, are_corrupted_by"	imitate	slave:puppeteer		
+remember	are_inspired_by	imitate	freedom_fighter:martyr		
+are_pursued_by	elude	impress	fugitive:pursuer		
+supplant	are_inspired_by	impress	substitute:principal		
+unleash	are_bitten_by	imprison	wizard:monster		
+charge	are_threatened_by	incarcerate	cop:suspect		
+abuse	are_feared_by	indoctrinate	hijacker:captive		
+appoint	"are_feared_by, are_worshipped_by"	indoctrinate	autocrat:propagandist		
+discipline	are_feared_by	indoctrinate	headmaster:student		
+dominate	"are_worshipped_by, are_trusted_by"	indoctrinate	king:pawn		
+forgive	are_respected_by	indoctrinate	pontiff:sinner		
+heal	are_worshipped_by	indoctrinate	miracle_worker:cripple		
+imprison	are_despised_by	indoctrinate	despot:rebel		
+inspire	are_worshipped_by	indoctrinate	missionary:convert		
+manipulate	are_worshipped_by	indoctrinate	ayatollah:mullah		
+minister_to	are_trusted_by	indoctrinate	priest:follower		
+persuade	are_trusted_by	indoctrinate	marketer:buyer		
+punish	are_feared_by	indoctrinate	totalitarian:dissenter		
+raise	"are_worshipped_by, are_trusted_by"	indoctrinate	mama:baby		
+rule	"are_worshipped_by, are_trusted_by"	indoctrinate	aristocrat:peasant		
+starve	are_begged_by	indoctrinate	momma:newborn		
+subjugate	are_feared_by	indoctrinate	conqueror:native		
+suppress	are_feared_by	indoctrinate	emperor:rival		
+teach	"are_feared_by, are_trusted_by"	indoctrinate	builder:apprentice		
+tend	are_worshipped_by	indoctrinate	sitter:baby		
+torture	are_feared_by	indoctrinate	abuser:detainee		
+train	are_respected_by	indoctrinate	artisan:apprentice		
+are_protected_by	are_impressed_by	inspire	civilian:soldier		
+die_for	are_worshipped_by	inspire	believer:saint		
+entertain	are_worshipped_by	inspire	celebrity:worshiper		
+lead	are_respected_by	inspire	chief:inferior		
+instruct	are_disappointed_by	insult	sage:follower		
+play_for	are_heckled_by	insult	musician:listener		
+praise	are_rebuffed_by	insult	critic:artist		
+question	are_deceived_by	interrogate	interviewer:applicant		
+round_up	are_resisted_by	interrogate	cop:suspect		
+seek	"are_disgusted_by, are_shocked_by"	interrogate	cop:suspect		
+lick_up_to	are_respected_by	"exploit, manipulate"	referee:applicant		
+believe_in	are_respected_by	invest_in	investor:entrepreneur		
+feel_sorry_for	are_feared_by	kidnap	priest:baby		
+abet	are_betrayed_by	kill	abetter:conspirator		
+take_aim_at	are_trusted_by	kill	assassin:target		
+are_stalked_by	lay_a_trap_for	kill	prey:hunter		
+argue_with	are_driven_mad_by	kill	patron:architect		
+catch	"are_insulted_by, are_attacked_by"	kill	killer:casualty		
+command	"are_disobeyed_by, are_betrayed_by"	kill	godfather:criminal		
+condemn	are_mocked_by	kill	pontiff:heretic		
+conspire_with	are_blackmailed_by	kill	abetter:mastermind		
+control	are_betrayed_by	kill	oligarch:politician		
+curse	"are_ignored_by, are_mocked_by"	kill	witch:victim		
+deal_with	are_cheated_by	kill	pimp:john		
+detain	"are_insulted_by, are_attacked_by"	kill	guard:intruder		
+disrespect	are_attacked_by	kill	infidel:prophet		
+divorce	are_stalked_by	kill	fiancée:fiancé		
+eject	are_threatened_by	kill	bouncer:troublemaker		
+enslave	are_disrespected_by	kill	master:slave		
+experiment_on	"are_bitten_by, are_bored_by"	kill	researcher:monkey		
+fall_in_love_with	are_spurned_by	kill	suitor:lover		
+guard	are_disrespected_by	kill	gaoler:convict		
+heckle	are_humiliated_by	kill	heckler:comedian		
+hide_from	are_found_by	kill	fugitive:pursuer		
+intimidate_with	are_betrayed_by	kill	warlord:goon		
+kill_for	"are_betrayed_by, are_underpaid_by, are_disrespected_by"	kill	mercenary:colonizer		
+lay_a_trap_for	are_underestimated_by	kill	chaser:prey		
+mate_with	"are_betrayed_by, are_abandoned_by"	kill	damsel:swain		
+pick_up	are_robbed_by	kill	john:prostitute		
+show_loyalty_to	are_betrayed_by	kill	king:knight		
+stalk	are_bored_by	kill	admirer:celebrity		
+stand_up_to	are_attacked_by	kill	hostage:kidnapper		
+starve	are_bitten_by	kill	momma:newborn		
+take_up_with	are_betrayed_by	kill	king:mistress		
+target	are_ignored_by	kill	assassin:politician		
+tend	are_bitten_by	kill	terrorist:victim		
+threaten	are_ignored_by	kill	politician:critic		
+torture	are_informed_by	kill	abuser:detainee		
+turn_against	"are_beaten_by, are_attacked_by"	kill	abetter:criminal		
+turn_against	are_threatened_by	kill	comrade:collaborator		
+believe_in	are_brainwashed_by	kill_for	listener:preacher		
+take_up_with	are_manipulated_by	kill_for	cheater:mistress		
+worship	"are_flattered_by, are_seduced_by"	kill_for	cultist:guru		
+"campaign_for, vote_for"	"are_spurned_by, are_disappointed_by"	"spread_lies_about, campaign_against"	god:monster		
+date	"are_disappointed_by, are_unimpressed_by, are_upstaged_by, are_bored_by"	dump	portrayer:character		
+date	"are_seduced_by, are_charmed_by, are_intrigued_by"	sleep_with	mystery_writer:detective		
+"lick_up_to, kiss_up_to"	are_ignored_by	resent	headhunter:recruit		
+seek_advice_from	are_impressed_by	kiss_up_to	drug_dealer:chemist		
+work_for	"are_ignored_by, are_distrusted_by"	kiss_up_to	bootlicker:boss		
+bow_down_to	are_ruled_by	labor_for	commoner:ruler		
+bow_down_to	are_enslaved_by	labor_for	laborer:farmer		
+cede_power_to	are_ruled_by	labor_for	commoner:ruler		
+chase	are_taunted_by	lay_a_trap_for	bully:target		
+chase_after	are_taunted_by	lay_a_trap_for	chaser:prey		
+dump	are_stalked_by	lay_a_trap_for	scoundrel:mistress		
+elude	are_tracked_by	lay_a_trap_for	escapee:captor		
+escape_from	are_pursued_by	lay_a_trap_for	hostage:kidnapper		
+flee_from	are_tracked_by	lay_a_trap_for	absconder:pursuer		
+pine_for	"are_eluded_by, are_ignored_by"	lay_a_trap_for	spinster:husband		
+look_for	are_trusted_by	lay_a_trap_for	con_man:sucker		
+prey_on	are_underestimated_by	lay_a_trap_for	bandit:victim		
+pursue	are_taunted_by	lay_a_trap_for	chaser:prey		
+run_away_from	are_pursued_by	lay_a_trap_for	hostage:kidnapper		
+search_for	"are_eluded_by, are_taunted_by"	lay_a_trap_for	pirate:captive		
+spy_on	are_trusted_by	lay_a_trap_for	spy:enemy		
+stalk	"are_eluded_by, are_taunted_by"	lay_a_trap_for	admirer:celebrity		
+turn_against	are_underestimated_by	lay_a_trap_for	underling:boss		
+advise	"are_disrespected_by, are_underpaid_by, are_spurned_by"	lead_astray	diviner:king		
+appoint	"are_feared_by, are_worshipped_by"	lead_astray	autocrat:propagandist		
+care_for	are_worshipped_by	lead_astray	nanny:child		
+counsel	"are_respected_by, are_trusted_by"	lead_astray	psychiatrist:patient		
+cure	are_worshipped_by	lead_astray	miracle_worker:cripple		
+deceive	are_trusted_by	lead_astray	deceiver:believer		
+elude	are_tracked_by	lead_astray	escapee:captor		
+enchant	"are_worshipped_by, are_obeyed_by, are_trusted_by"	lead_astray	enchanter:thrall		
+indoctrinate	are_trusted_by	lead_astray	sitter:baby		
+lie_to	are_trusted_by	lead_astray	liar:victim		
+mentor	"are_worshipped_by, are_trusted_by"	lead_astray	tutor:pupil		
+preach_to	are_obeyed_by	lead_astray	pastor:parishioner		
+rouse	are_obeyed_by	lead_astray	firebrand:thug		
+sign_up	"are_obeyed_by, are_trusted_by"	lead_astray	headhunter:recruit		
+silence	are_obeyed_by	lead_astray	politician:critic		
+tend	are_worshipped_by	lead_astray	sitter:baby		
+translate_for	are_trusted_by	lead_astray	translator:politician		
+work_with	are_trusted_by	lead_astray	mariner:shipmate		
+write_for	"are_underpaid_by, are_disgusted_by, are_underappreciated_by, are_disrespected_by"	lead_astray	speechwriter:politician		
+interrogate	are_feared_by	learn_from	cop:suspect		
+mimic	are_inspired_by	learn_from	impersonator:celebrity		
+give_birth_to	are_bitten_by	let_go_of	momma:baby		
+give_birth_to	are_abandoned_by	let_go_of	queen:prince		
+welcome	"are_deceived_by, are_attracted_by"	let_in	host:cuckoo		
+lose_favor_with	are_dumped_by	lick_up_to	leader:elector		
+study	"are_disrespected_by, are_distrusted_by"	lick_up_to	anthropologist:native		
+work_for	"are_ignored_by, are_distrusted_by"	lick_up_to	bootlicker:boss		
+diagnose	are_concerned_about	lie_to	doctor:patient		
+report_to	"are_disrespected_by, are_underappreciated_by"	lie_to	nun:abbess		
+take_messages_for	"are_disrespected_by, are_underappreciated_by, are_underpaid_by"	lie_to	receptionist:dentist		
+testify_before	are_interrogated_by	lie_to	cop:lawyer		
+summon	are_flattered_by	listen_to	king:envoy		
+alienate	"are_abandoned_by, are_dumped_by"	look_for	con_man:sucker		
+tower_over	are_toppled_by	look_up_to	giant:rival		
+underestimate	"are_supplanted_by, are_upstaged_by"	look_up_to	master:rival		
+control	"are_deceived_by, are_tricked_by, are_seduced_by"	lose_control_over	oligarch:politician		
+dispatch	are_forgotten_by	lose_control_over	general:messenger		
+free	are_thanked_by	lose_control_over	liberator:prisoner		
+indulge	are_exploited_by	lose_control_over	pamperer:customer		
+lead_astray	are_blackmailed_by	lose_control_over	seducer:thrall		
+manage	are_seduced_by	lose_control_over	boss:subordinate		
+overwork	are_sued_by	lose_control_over	pimp:hooker		
+send	"are_upstaged_by, are_misrepresented_by"	lose_control_over	emperor:emissary		
+sleep_with	are_blackmailed_by	lose_control_over	whore:patron		
+spoil	are_exploited_by	lose_control_over	parent:child		
+advise	"are_disgusted_by, are_shocked_by"	lose_faith_in	crony:banker		
+advocate_for	"are_deceived_by, are_exploited_by, are_disgusted_by, are_shocked_by"	lose_faith_in	lawyer:client		
+appeal_to	are_rebuffed_by	lose_faith_in	advocate:stakeholder		
+confer_with	"are_manipulated_by, are_deceived_by, are_cheated_by"	lose_faith_in	medium:ghost		
+consult	"are_bored_by, are_lectured_by"	lose_faith_in	patient:doctor		
+disagree_with	"are_misrepresented_by, are_deceived_by"	lose_faith_in	architect:builder		
+disagree_with	"are_silenced_by, are_censured_by"	lose_faith_in	architect:builder		
+pray_to	are_ignored_by	lose_faith_in	imam:prophet		
+reward	"are_disrespected_by, are_underappreciated_by"	lose_faith_in	oligarch:minion		
+serve	"are_disillusioned_by, are_disgusted_by"	lose_faith_in	minister:emperor		
+show_loyalty_to	are_pushed_too_far_by	lose_faith_in	votary:deity		
+support	"are_underappreciated_by, are_pushed_too_far_by"	lose_faith_in	socialist:comrade		
+worship	"are_deceived_by, are_disrespected_by, are_unimpressed_with"	lose_faith_in	adorer:celebrity		
+deceive	"are_criticized_by,  are_lectured_by"	lose_favor_with	deceiver:believer		
+disobey	"are_chastised_by,  are_scolded_by, are_humiliated_by"	lose_favor_with	Catholic:pope		
+manipulate	are_uncovered_by	lose_favor_with	minion:boss		
+find	"are_bored_by, are_disgusted_by"	lose_interest_in	bachelor:wife		
+follow	"are_bored_by, are_disrespected_by"	lose_interest_in	groupie:celebrity		
+compete_against	are_bought_off_by	lose_to	champion:challenger		
+fight_against	are_tricked_by	lose_to	native:settler		
+underestimate	"are_tricked_by, are_manipulated_by"	lose_to	challenger:incumbent		
+are_profiled_by	obtain_sympathy_from	manipulate	serial_killer:policeman		
+charm	are_trusted_by	manipulate	snake_charmer:snake		
+compliment	"are_trusted_by, are_favored_by"	manipulate	flatterer:despot		
+convert	"are_worshipped_by, are_trusted_by"	manipulate	advocate:proselyte		
+counsel	"are_respected_by, are_trusted_by"	manipulate	psychiatrist:patient		
+cross_examine	are_trusted_by	manipulate	litigator:witness		
+curry_favor_with	"are_trusted_by, are_favored_by"	manipulate	leader:elector		
+deceive	are_trusted_by	manipulate	deceiver:believer		
+enchant	"are_worshipped_by, are_obeyed_by, are_trusted_by"	manipulate	enchanter:thrall		
+evaluate_with	are_feared_by	manipulate	editor:referee		
+flatter	are_favored_by	manipulate	bootlicker:boss		
+guide	are_trusted_by	manipulate	ayatollah:mullah		
+kiss_up_to	are_favored_by	manipulate	bootlicker:boss		
+lick_up_to	"are_favored_by, are_trusted_by, are_promoted_by"	manipulate	bootlicker:boss		
+lie_to	are_trusted_by	manipulate	liar:victim		
+mystify	are_worshipped_by	manipulate	shaman:initiate		
+observe	are_trusted_by	manipulate	anthropologist:native		
+pander_to	are_respected_by	manipulate	charmer:dupe		
+praise	are_trusted_by	manipulate	critic:artist		
+prey_on	"are_trusted_by, are_welcomed_by"	manipulate	assassin:target		
+serve	"are_trusted_by, are_underestimated_by"	manipulate	dealer:customer		
+subjugate	are_feared_by	manipulate	conqueror:native		
+suck_up_to	are_favored_by	manipulate	bootlicker:boss		
+summon	are_feared_by	manipulate	king:envoy		
+trick	are_underestimated_by	manipulate	swindler:dupe		
+date	are_deflowered_by	marry	boyfriend:girlfriend		
+enslave	are_seduced_by	marry	master:slave		
+fall_in_love_with	are_betrayed_by	dump	fan:celebrity		
+feel_sorry_for	are_seduced_by	marry	dupe:scammer		
+propose_to	are_favored_by	marry	gentleman:lady		
+reject	are_blackmailed_by	marry	lady:suitor		
+sleep_with	are_deflowered_by	marry	lady:suitor		
+observe	"are_coached_by, are_impressed_by"	mimic	impersonator:celebrity		
+act_for	"are_trusted_by, are_underpaid_by"	misrepresent	proxy:shareholder		
+ask_questions_for	"are_exploited_by, are_pushed_too_far_by"	misrepresent	interviewer:pollster		
+interpret_for	are_disrespected_by	misrepresent	interpreter:speaker		
+represent	"are_underpaid_by, are_underappreciated_by"	misrepresent	parliamentarian:voter		
+speak_for	"are_disrespected_by, are_underpaid_by, are_underappreciated_by"	misrepresent	spokesman:politician		
+translate_for	are_trusted_by	misrepresent	translator:politician		
+fight_against	are_impressed_by	negotiate_with	villain:hero		
+struggle_against	are_rebuffed_by	negotiate_with	enemy:rival		
+interview	"are_blackmailed_by, are_bought_off_by, are_manipulated_by, are_impressed_by, are_entertained_by, are_intrigued_by"	nominate	proposer:applicant		
+consult	"are_advised_by, are_lectured_by, are_counselled_by"	obey	patient:doctor		
+struggle_against	are_underestimated_by	overcome	fighter:foe		
+rise_against	are_mocked_by	overthrow	slave:puppeteer		
+serve	are_underestimated_by	overthrow	assistant:boss		
+turn_against	"are_resisted_by, are_feared_by, are_attacked_by"	overthrow	minion:boss		
+manipulate	profit_from	overwork	pimp:hooker		
+"kiss_up_to, lick_up_to"	"are_ignored_by, are_feared_by"	pander_to	headhunter:recruit		
+pamper	are_rewarded_by	pander_to	critic:artist		
+preach_to	"are_disrespected_by, are_underappreciated_by"	pander_to	pontiff:sinner		
+propagandize_for	are_rewarded_by	pander_to	propagandist:autocrat		
+reach_out_to	"are_rebuffed_by, are_resisted_by"	pander_to	televangelist:sinner		
+receive	are_flattered_by	pander_to	ambassador:courier		
+reward	are_flattered_by	pander_to	godfather:lieutenant		
+rule_over	are_resisted_by	pander_to	conqueror:native		
+satirize	are_bought_off_by	pander_to	satirist:insider		
+seek	are_ignored_by	pander_to	advocate:proselyte		
+speak_to	are_rebuffed_by	pander_to	eyewitness:reporter		
+undermine	"are_blackmailed_by, are_bought_off_by"	pander_to	critic:politician		
+disfigure	are_sued_by	pay_off	stylist:actress		
+steal_from	are_blackmailed_by	pay_off	thief:victim		
+treat	are_sued_by	pay_off	dentist:patient		
+alienate	"are_abandoned_by, are_dumped_by"	pine_for	celebrity:admirer		
+cast_out	"are_forgotten_by, are_haunted_by"	pine_for	god:demon		
+divorce	"are_forgotten_by, are_haunted_by"	pine_for	divorcee:spouse		
+let_go_of	are_forgotten_by	pine_for	momma:baby		
+release	are_forgotten_by	pine_for	savior:captive		
+are_appointed_by	play_for	are_rewarded_by	bard:king		
+campaign_against	"are_blackmailed_by, are_bought_off_by"	praise	opponent:rival		
+criticize	"are_threatened_by, are_blackmailed_by"	praise	critic:artist		
+dislike	"are_impressed_by, are_charmed_by"	praise	butcher:vegetarian		
+evaluate	"are_bought_off_by, are_blackmailed_by"	praise	lecturer:student		
+lose_faith_in	"are_bought_off_by, are_blackmailed_by"	praise	adorer:god		
+review	"are_impressed_by, are_moved_by, are_entertained_by"	praise	peer:professional		
+spread_lies_about	are_forgiven_by	praise	liar:victim		
+hit	are_arrested_for_hurting	beg_forgiveness_from	marksman:target		
+worship	are_inspired_by	pray_to	believer:saint		
+appoint	"are_impressed_by, are_flattered_by"	profit_from	autocrat:propagandist		
+blackmail	"are_feared_by, are_paid_by"	profit_from	blackmailer:victim		
+defraud	are_trusted_by	profit_from	knave:dupe		
+entertain	are_tipped_by	profit_from	gondolier:tourist		
+lead_astray	are_obeyed_by	profit_from	seducer:thrall		
+sacrifice	are_obeyed_by	profit_from	chess_player:pawn		
+select	are_rewarded_by	profit_from	evaluator:candidate		
+sell_through	are_trusted_by	profit_from	artist:dealer		
+sell_via	are_trusted_by	profit_from	builder:realtor		
+sign_up	are_obeyed_by	profit_from	headhunter:recruit		
+snitch_to	are_rewarded_by	profit_from	informant:detective		
+tip_off	are_rewarded_by	profit_from	insider:reporter		
+let_go_of	are_thanked_by	profit_from	kidnapper:hostage		
+appoint	are_worshipped_by	promote	autocrat:propagandist		
+delegate_to	are_impressed_by	promote	boss:subordinate		
+deploy	are_impressed_by	promote	general:soldier		
+hire	are_impressed_by	promote	advertiser:writer		
+hire	are_seduced_by	promote	travel_agent:tour_guide		
+manage	are_impressed_by	promote	ombudsman:watchdog		
+cross_examine	are_deceived_by	prosecute	lawyer:witness		
+coach	are_disrespected_by	punish	mentor:apprentice		
+coerce	are_deceived_by	punish	criminal:witness		
+command	"are_disrespected_by, are_disobeyed_by"	punish	abbot:friar		
+lose_control_over	are_disrespected_by	punish	parent:child		
+take_as_prisoner	"are_disrespected_by, are_disobeyed_by"	punish	bank_robber:hostage		
+threaten	are_ignored_by	punish	criminal:hostage		
+take_aim_at	"are_eluded_by, are_tricked_by"	pursue	assassin:target		
+fall_in_love_with	are_abandoned_by	pursue	abuser:prey		
+fall_in_love_with	are_abandoned_by	pursue	abuser:prey		
+evaluate	"are_flattered_by, are_feared_by"	rank	nominator:candidate		
+interview	"are_flattered_by, are_feared_by"	rank	nominator:candidate		
+deploy	"are_disappointed_by, are_unimpressed_by"	recall	general:soldier		
+send	"are_upstaged_by, are_misrepresented_by"	recall	emperor:emissary		
+summon	are_obeyed_by	receive	ambassador:courier		
+hire	"are_cheated_by, are_disrespected_by, are_disobeyed_by, are_unimpressed_by"	"refuse_to_pay, withold_payment_from"	drug_dealer:chemist		
+profit_from	are_sued_by	settle_with	trafficker:slave		
+rent_from	"are_abused_by, are_mistreated_by, are_cheated_by"	refuse_to_pay	boarder:landlord		
+"are_underpaid_by, are_underappreciated_by"	"steal_from, cheat"	"are_disrespected_by, are_underappreciated_by"	salesman:retailer		
+abuse	"are_blackmailed_by, are_bought_off_by"	release	extremist:hostage		
+apprehend	"are_moved_by, are_begged_by"	release	lawman:criminal		
+arrest	"are_moved_by, are_begged_by"	release	lawman:criminal		
+capture	are_bought_off_by	release	pirate:captive		
+catch	are_moved_by	release	gamekeeper:poacher		
+experiment_on	"are_entertained_by, are_moved_by"	release	experimenter:monkey		
+guard	are_tricked_by	release	gaoler:convict		
+take_as_prisoner	"are_bought_off_by, are_moved_by"	release	bank_robber:hostage		
+borrow_from	are_humiliated_by	repay	debtor:creditor		
+defraud	are_sued_by	repay	knave:dupe		
+owe	are_threatened_by	repay	debtor:creditor		
+owe_to	are_threatened_by	repay	debtor:lender		
+profit_from	are_moved_by	repay	pimp:hooker		
+rob	are_moved_by	repay	bandit:victim		
+steal_from	are_blackmailed_by	repay	thief:victim		
+steal_from	"are_investigated_by, are_pursued_by, are_threatened_by, are_denounced_by"	repay	thief:victim		
+fall_in_love_with	"are_rebuffed_by, are_ignored_by, are_humiliated_by, are_spurned_by, are_mocked_by"	resent	voter:politician		
+counsel	"are_ignored_by, are_distrusted_by"	resent	psychiatrist:patient		
+criticize	are_silenced_by	resent	critic:artist		
+are_questioned_by	respond_to	are_silenced_by	god:supplicant		
+sweat_for	"are_abused_by, are_exploited_by, are_mistreated_by, are_underpaid_by, are_underappreciated_by"	resent	laborer:hirer		
+sympathize_with	"are_disrespected_by, are_cheated_by, are_lectured_by"	resent	sympathizer:activist		
+work_for	"are_cheated_by, are_deceived_by, are_disrespected_by, are_underpaid_by"	resent	nationalist:foreigner		
+work_with	"are_cheated_by, are_deceived_by, are_disrespected_by"	resent	nationalist:foreigner		
+are_appreciated_by	"steal_from, cheat"	are_beaten_by	vassal:emperor		
+worship	"are_deceived_by, are_disrespected_by, are_unimpressed_with"	resent	adorer:god		
+attack	are_resisted_by	respect	competitor:opponent		
+attack	"are_beaten_by, are_defeated_by"	respect	loser:winner		
+condescend_to	are_humiliated_by	respect	competitor:opponent		
+underestimate	"are_defeated_by, are_bitten_by"	respect	aggressor:opponent		
+influence	are_obeyed_by	reward	lobbyist:politician		
+silence	are_feared_by	reward	politician:critic		
+cede_power_to	are_tormented_by	rise_against	loser:winner		
+fear	are_pushed_too_far_by	rise_against	vassal:emperor		
+labor_for	"are_pushed_too_far_by, are_abused_by"	rise_against	peasant:overlord		
+obey	"are_disgusted_by, are_pushed_too_far_by"	rise_against	serf:king		
+obey	"are_deceived_by, are_disgusted_by, are_exploited_by"	rise_against	torturer:despot		
+serve	"are_abused_by, are_exploited_by, are_mistreated_by, are_underpaid_by, are_underappreciated_by"	rise_against	vassal:conqueror		
+surrender_to	are_humiliated_by	rise_against	loser:winner		
+enchant	"are_worshipped_by, are_obeyed_by, are_trusted_by"	rule	aristocrat:peasant		
+subjugate	"are_feared_by, are_obeyed_by, are_worshipped_by"	rule_over	conqueror:native		
+vote_for	"are_disillusioned_by, are_unimpressed_by"	run_against	incumbent:challenger		
+"are_hired_by, work_for, accompany"	"are_exploited_by, are_disrespected_by, are_pushed_too_far_by"	run_away_from	porter:climber		
+visit	"are_disgusted_by, are_shocked_by, are_threatened_by"	run_away_from	gynecologist:baby		
+dump	"are_insulted_by, are_attacked_by"	run_away_from	lover:ex		
+fail_to_deliver_for	"are_beaten_by, are_threatened_by, are_sued_by"	run_away_from	prostitute:pimp		
+govern	are_toppled_by	run_away_from	sultan:serf		
+love	are_overwhelmed_by	run_away_from	mother:baby		
+molest	are_bitten_by	run_away_from	paedophile:child		
+pick_on	are_lectured_by	run_away_from	linebacker:opponent		
+stalk	are_threatened_by	run_away_from	admirer:celebrity		
+torment	are_bitten_by	run_away_from	terrorist:victim		
+visit	are_bored_by	run_away_from	house_guest:homeowner		
+report_to	are_abused_by	run_away_from	deputy:commissioner		
+handle	are_disappointed_by	sacrifice	controller:spy		
+manipulate	are_trusted_by	sacrifice	chess_player:pawn		
+save	are_disrespected_by	sacrifice	messiah:apostle		
+kill	"are_cursed_by, are_haunted_by"	sacrifice_to	insurgent:civilian		
+worship	are_ignored_by	sacrifice_to	devotee:saint		
+let_go_of	"are_forgotten_by, are_haunted_by"	search_for	momma:baby		
+spy_on	"are_impressed_by, are_intrigued_by"	seduce	king:mistress		
+listen_to	are_inspired_by	seek_advice_from	intern:mentor		
+assassinate	are_haunted_by	seek_forgiveness_from	hit_man:target		
+betray	"are_attacked_by, are_cursed_by"	seek_forgiveness_from	double_agent:master		
+blow_up	are_haunted_by	seek_forgiveness_from	insurgent:civilian		
+cheat_on	"are_stalked_by, are_caught_by"	seek_forgiveness_from	adulterer:spouse		
+condescend_to	"are_insulted_by, are_attacked_by"	seek_forgiveness_from	conqueror:vassal		
+fight_against	"are_beaten_by, are_defeated_by"	"seek_forgiveness_from, cede_power_to, bow_down_to"	candidate:detractor		
+hate	are_moved_by	seek_forgiveness_from	butcher:vegetarian		
+kill	"are_cursed_by, are_haunted_by"	seek_forgiveness_from	assassin:ruler		
+persecute	are_moved_by	seek_forgiveness_from	harasser:victim		
+steal_from	"are_interrogated_by, are_lectured_by, are_reported_by"	seek_forgiveness_from	bank_robber:banker		
+steal_from	are_uncovered_by	seek_forgiveness_from	thief:victim		
+surrender_to	"are_taunted_by, are_mocked_by, are_criticized_by"	seek_forgiveness_from	target:attacker		
+profit_from	are_trusted_by	"condescend_to, take_advantage_of"	slave_owner:slave		
+save	are_trusted_by	exploit	rescuer:survivor		
+appoint	are_flattered_by	dispatch	emperor:emissary		
+assault	are_sued_by	settle_with	attacker:target		
+attack	"are_beaten_by, are_defeated_by"	settle_with	attacker:target		
+beat_up	are_sued_by	settle_with	sadist:masochist		
+beg_forgiveness_from	are_pitied_by	settle_with	thief:victim		
+disagree_with	are_persuaded_by	settle_with	advocate:opposer		
+hurt	are_sued_by	settle_with	offender:victim		
+joke_about	are_threatened_by	settle_with	mocker:victim		
+negotiate_with	"are_respected_by, are_impressed_by"	settle_with	politician:rival		
+overcome	are_moved_by	settle_with	fighter:foe		
+spread_lies_about	are_sued_by	settle_with	liar:victim		
+stand_up_to	are_respected_by	settle_with	theorist:critic		
+read_the_works_of	"are_impressed_by, admire, are_moved_by"	worship	reader:writer		
+read_the_works_of	"are_impressed_by, admire, are_moved_by"	stalk	reader:writer		
+sue	"are_moved_by,  are_seduced_by"	settle_with	plaintiff:defendant		
+testify_against	are_defeated_by	settle_with	boss:lackey		
+turn_against	are_bought_off_by	settle_with	underling:boss		
+take_aim_at	are_bought_off_by	show_loyalty_to	assassin:target		
+appeal_to	are_saved_by	show_loyalty_to	advocate:stakeholder		
+are_moved_by	"sympathize_with, pity, identify_with"	show_loyalty_to	tormentor:martyr		
+labor_for	"are_rewarded_by, are_respected_by"	show_loyalty_to	knight:king		
+marry	are_loved_by	show_loyalty_to	princess:prince		
+sign_with	"are_respected_by, are_rewarded_by"	show_loyalty_to	boxer:promoter		
+wait_on	"are_rewarded_by, are_respected_by"	show_loyalty_to	knight:king		
+work_for	"are_rewarded_by, are_respected_by, are_shielded_by"	show_loyalty_to	knight:king		
+worship	are_rewarded_by	show_loyalty_to	imam:prophet		
+identify	are_impressed_by	sign_up	policyholder:beneficiary		
+impress	"are_flattered_by, are_seduced_by"	sign_with	boxer:promoter		
+confide_in	are_betrayed_by	silence	confidante:friend		
+dismiss	"are_chastised_by,  are_scolded_by, are_denounced_by"	silence	boss:lackey		
+exploit	"are_sued_by, are_disgusted_by"	silence	monster:victim		
+humiliate	"are_attacked_by, are_denounced_by"	silence	bully:victim		
+indoctrinate	are_misrepresented_by	silence	missionary:convert		
+inspire	are_upstaged_by	silence	artist:imitator		
+interact_with	"are_insulted_by, are_deceived_by, are_disrespected_by"	silence	secretary:caller		
+repay	are_lectured_by	silence	borrower:creditor		
+sing_with	are_upstaged_by	silence	singer:accompanist		
+steal_from	are_reported_by	silence	cutthroat:victim		
+play_with	"are_impressed_by, are_entertained_by"	sing_with	singer:accompanist		
+travel_with	"are_impressed_by, are_entertained_by"	sing_with	singer:accompanist		
+assist	are_seduced_by	sleep_with	secretary:boss		
+attract	are_worshipped_by	sleep_with	rapper:bitch		
+date	"are_impressed_by, are_charmed_by"	sleep_with	girlfriend:boyfriend		
+feel_sorry_for	are_seduced_by	sleep_with	dupe:scammer		
+flirt_with	are_kissed_by	sleep_with	girl:boy		
+guard	"are_seduced_by, are_inspired_by"	sleep_with	gaoler:convict		
+host	are_seduced_by	sleep_with	mistress:adulterer		
+kidnap	are_seduced_by	sleep_with	kidnapper:hostage		
+massage	are_seduced_by	sleep_with	masseur:client		
+prey_on	"are_rebuffed_by, are_resisted_by"	snatch	bank_robber:hostage		
+distrust	are_bought_off_by	share_stories_with	informant:detective		
+hate	are_bought_off_by	show_loyalty_to	informant:detective		
+campaign_for	are_fired_by	spread_lies_about	staffer:politician		
+descend_from	are_haunted_by	spread_lies_about	prince:king		
+dump	are_cursed_by	spread_lies_about	adulterer:mistress		
+follow	"are_deceived_by, are_disrespected_by, are_unimpressed_with"	spread_lies_about	groupie:celebrity		
+kill	are_haunted_by	spread_lies_about	gaoler:convict		
+lose_favor_with	"are_ignored_by, are_rebuffed_by, are_spurned_by"	spread_lies_about	deceiver:believer		
+misrepresent	are_trusted_by	spread_lies_about	proxy:shareholder		
+resent	are_criticized_by	spread_lies_about	nationalist:foreigner		
+run_against	"are_heckled_by, are_insulted_by, are_mocked_by"	spread_lies_about	challenger:incumbent		
+appoint	"are_unimpressed_by, are_distrusted_by, are_concerned_about"	spy_on	supervisor:trainee		
+campaign_for	"are_fired_by, are_deceived_by"	spy_on	staffer:politician		
+commit_to	are_concerned_about	spy_on	sweetheart:lover		
+fall_in_love_with	are_concerned_about	spy_on	supervisor:trainee		
+hire	are_concerned_about	spy_on	supervisor:trainee		
+kiss_up_to	are_trusted_by	spy_on	bootlicker:boss		
+learn_with	are_trusted_by	spy_on	pupil:schoolmate		
+lick_up_to	"are_favored_by, are_trusted_by, are_promoted_by"	spy_on	bootlicker:boss		
+look_after	are_concerned_about	spy_on	custodian:juvenile		
+monitor	"are_disgusted_by, are_shocked_by"	spy_on	babysitter:baby		
+rebel_against	are_suppressed_by	spy_on	teenager:parent		
+show_loyalty_to	are_concerned_about	spy_on	knight:king		
+study	"are_trusted_by, are_welcomed_by"	spy_on	anthropologist:native		
+watch_over	are_unimpressed_by	spy_on	supervisor:trainee		
+admire	are_encouraged_by	stalk	reader:writer		
+commit_to	"are_rejected_by, are_rebuffed_by, are_ignored_by"	stalk	sweetheart:lover		
+pine_for	are_ignored_by	stalk	sweetheart:lover		
+are_bullied_by	"are_hardened_by, are_pushed_too_far_by"	stand_up_to	wimp:tormentor		
+escape_from	are_pursued_by	stand_up_to	hostage:kidnapper		
+fear	are_mocked_by	stand_up_to	captive:executioner		
+fear	are_abused_by	stand_up_to	captive:overseer		
+fear	are_unimpressed_by	stand_up_to	vassal:emperor		
+run_away_from	are_pursued_by	stand_up_to	hostage:kidnapper		
+breastfeed	are_bitten_by	starve	momma:newborn		
+care_for	are_deceived_by	starve	daddy:child		
+attend_to	are_underpaid_by	steal_from	valet:duke		
+buy_from	"are_exploited_by, are_cheated_by"	steal_from	buyer:seller		
+cater_to	are_underpaid_by	steal_from	hotelier:guest		
+charm	are_trusted_by	steal_from	snake_charmer:snake		
+cook_for	"are_underpaid_by, are_mistreated_by"	steal_from	housekeeper:homeowner		
+farm_for	are_cheated_by	steal_from	sharecropper:landowner		
+fool	are_trusted_by	steal_from	forger:expert		
+impersonate	are_mistaken_for	steal_from	double:celebrity		
+labor_for	"are_underpaid_by,  are_disrespected_by"	steal_from	laborer:farmer		
+lease_from	are_deceived_by	steal_from	lessee:landlord		
+manipulate	are_trusted_by	steal_from	puppeteer:puppet		
+marry	are_worshipped_by	steal_from	fiancée:fiancé		
+mimic	are_mistaken_for	steal_from	impersonator:celebrity		
+obey	"are_cheated_by, are_underpaid_by"	steal_from	servant:master		
+pay	are_cheated_by	steal_from	renter:landlord		
+work_for	"are_disrespected_by, are_underappreciated_by, are_underpaid_by"	steal_from	salesman:retailer		
+serve	"are_trusted_by, are_underappreciated_by, are_underpaid_by"	"steal_from, cheat"	dealer:customer		
+show_loyalty_to	"are_underpaid_by, are_ignored_by, are_underappreciated_by, are_disrespected_by"	"steal_from, cheat"	knight:king		
+sign_up	are_trusted_by	"steal_from, cheat"	headhunter:recruit		
+supply	are_underpaid_by	"steal_from, cheat"	wholesaler:dealer		
+trick	are_underestimated_by	"steal_from, cheat"	swindler:dupe		
+work_for	"are_underappreciated_by, are_underpaid_by"	"steal_from, cheat"	actuary:insurer		
+work_with	"are_trusted_by, are_corrupted_by"	steal_from	cutthroat:victim		
+observe	"are_inspired_by, are_intrigued_by"	study	anthropologist:native		
+impress	are_feared_by	subjugate	elitist:commoner		
+lead	are_feared_by	subjugate	chief:inferior		
+rule	are_resisted_by	subjugate	aristocrat:peasant		
+rule_over	are_resisted_by	subjugate	conqueror:native		
+flirt_with	are_ignored_by	suck_up_to	sycophant:boss		
+work_for	"are_ignored_by, are_distrusted_by"	suck_up_to	bootlicker:boss		
+work_for	"are_distrusted_by, are_disrespected_by"	suck_up_to	sycophant:boss		
+buy_from	"are_exploited_by, are_cheated_by"	sue	buyer:seller		
+consult_with	are_deceived_by	sue	advisee:adviser		
+criticize	are_threatened_by	sue	critic:writer		
+export_to	are_cheated_by	sue	manufacturer:importer		
+fund	"are_disillusioned_by, are_exploited_by, are_deceived_by"	sue	fundamentalist:terrorist		
+guarantee	"are_exploited_by, are_cheated_by"	sue	underwriter:investor		
+insult	are_silenced_by	sue	blogger:rival		
+order_from	are_cheated_by	sue	buyer:seller		
+sell_through	are_cheated_by	sue	artist:dealer		
+sell_to	"are_cheated_by, are_underpaid_by"	sue	content_provider:subscriber		
+sign_with	"are_exploited_by, are_cheated_by, are_underpaid_by"	sue	boxer:promoter		
+trust	"are_exploited_by, are_cheated_by"	sue	depositor:banker		
+attract	are_bitten_by	surrender_to	host:parasite		
+summon	"are_rebuffed_by, are_ignored_by"	track_down	king:envoy		
+send	are_misrepresented_by	summon	emperor:emissary		
+resemble	are_mistaken_for	supplant	child:sibling		
+upstage	are_attacked_by	supplant	student:teacher		
+surrender_to	are_respected_by	support	loser:winner		
+sympathize_with	are_inspired_by	support	sympathizer:activist		
+argue_with	are_persuaded_by	surrender_to	opposer:believer		
+attack	"are_defeated_by, are_beaten_by, are_humiliated_by"	surrender_to	matador:bull		
+break_free_of	"are_blackmailed_by, are_threatened_by"	surrender_to	thrall:controller		
+break_with	are_blackmailed_by	surrender_to	demonstrator:radical		
+campaign_against	are_impressed_by	surrender_to	opponent:rival		
+elude	are_lured_by	surrender_to	escapee:pursuer		
+sue	are_seduced_by	surrender_to	enemy:rival		
+underestimate	are_defeated_by	surrender_to	challenger:champion		
+attack	are_moved_by	sympathize_with	predator:victim		
+hurt	are_forgiven_by	sympathize_with	offender:victim		
+whip	are_begged_by	sympathize_with	dominatrix:john		
+"learn_from, study_under"	are_trusted_by	take_advantage_of	school_kid:schoolmaster		
+serve	are_trusted_by	take_advantage_of	feudatory:emperor		
+wait_on	are_trusted_by	take_advantage_of	manservant:lord		
+work_for	"are_trusted_by, are_underestimated_by"	take_advantage_of	inspector:regulator		
+coerce	are_resisted_by	take_as_prisoner	bank_robber:hostage		
+take_aim_at	are_bought_off_by	take_up_with	assassin:target		
+let_in	"are_seduced_by, are_flattered_by"	take_up_with	cheater:mistress		
+seduce	are_entertained_by	take_up_with	geisha:client		
+confer_with	are_concerned_about	diagnose	doctor:patient		
+attend	"are_disgusted_by, are_shocked_by, are_disfigured_by"	testify_against	patient:dentist		
+campaign_against	are_sued_by	testify_against	rival:enemy		
+commit_to	are_betrayed_by	testify_against	sweetheart:lover		
+conspire_with	"are_corrupted_by, are_cheated_by"	testify_against	abetter:criminal		
+destroy	are_arrested_for_hurting	testify_against	rival:enemy		
+dismiss	are_sued_by	testify_against	boss:lackey		
+fire	are_sued_by	testify_against	comedian:publicist		
+inform	are_misrepresented_by	testify_against	source:columnist		
+kill	are_haunted_by	exorcise	gaoler:convict		
+kill_for	"are_lectured_by, are_disrespected_by"	testify_against	hit_man:mobster		
+lead_astray	are_cursed_by	testify_against	tempter:sinner		
+listen_to	are_deceived_by	testify_against	barman:customer		
+misrepresent	are_sued_by	testify_against	proxy:shareholder		
+monitor	"are_disgusted_by, are_shocked_by"	testify_against	babysitter:baby		
+popularize	are_disgusted_by	testify_against	publicist:actor		
+propagandize_for	are_disgusted_by	testify_against	propagandist:autocrat		
+prosecute	are_threatened_by	testify_against	prosecutor:criminal		
+work_with	"are_disgusted_by, are_shocked_by"	snitch_on	criminal:abetter		
+snitch_on	"are_feared_by, are_despised_by"	testify_against	informant:criminal		
+testify_for	are_disgusted_by	testify_against	expert:attorney		
+topple	are_arrested_for_hurting	testify_against	rebel:tyrant		
+torture	are_informed_by	testify_against	interrogator:defendant		
+watch_over	"are_disgusted_by, are_shocked_by"	testify_against	supervisor:trainee		
+confer_with	are_coached_by	testify_for	cop:lawyer		
+snitch_to	are_rewarded_by	testify_for	informant:detective		
+testify_against	are_bought_off_by	testify_for	cop:suspect		
+consult_with	"are_bored_by, are_unimpressed_by"	refuse_to_pay	defendant:witness		
+censure	are_denounced_by	threaten	censor:liberal		
+interrogate	are_deceived_by	threaten	cop:suspect		
+interview	are_deceived_by	threaten	commentator:expert		
+threaten_with	are_disrespected_by	threaten	moneylender:goon		
+trust	"are_exploited_by, are_cheated_by"	threaten	depositor:banker		
+select	are_assisted_by	tip	tourist:guide		
+talk_to	are_bought_off_by	tip_off	insider:reporter		
+interrogate	"are_resisted_by, are_ignored_by, are_disrespected_by"	torture	interrogator:defendant		
+hunt	are_eluded_by	track_down	abuser:prey		
+pursue	are_eluded_by	track_down	abuser:prey		
+search_for	are_eluded_by	track_down	predator:prey		
+share_stories_with	are_bored_by	turn_against	confidante:friend		
+lend_to	are_feared_by	trust	creditor:borrower		
+believe_in	"are_bored_by, are_lectured_by"	tune_out	listener:preacher		
+listen_to	"are_bored_by, are_lectured_by"	tune_out	listener:preacher		
+lose_interest_in	"are_insulted_by, are_disrespected_by, are_chastised_by"	tune_out	groupie:celebrity		
+pray_with	"are_lectured_by, are_bored_by"	tune_out	coreligionist:believer		
+seek_advice_from	"are_lectured_by, are_bored_by"	tune_out	intern:mentor		
+accompany	are_upstaged_by	turn_against	guitarist:vocalist		
+answer_to	"are_pushed_too_far_by, are_disrespected_by"	turn_against	counsellor:emperor		
+are_deceived_by	grow_suspicious_of	turn_against	soldier:recruiter		
+carry_for	"are_pushed_too_far_by, are_underpaid_by"	turn_against	porter:hunter		
+champion	"are_disrespected_by, are_insulted_by, are_mocked_by"	turn_against	knight:king		
+conspire_with	"are_betrayed_by, are_cheated_by"	turn_against	abetter:criminal		
+disobey	are_excommunicated_by	turn_against	cleric:pope		
+disobey	are_defrocked_by	turn_against	priest:bishop		
+elect	are_disappointed_by	turn_against	citizen:legislator		
+kill_for	"are_disgusted_by, are_pushed_too_far_by"	turn_against	terrorist:radical		
+obey	"are_deceived_by, are_disgusted_by, are_exploited_by"	turn_against	torturer:despot		
+obey	"are_deceived_by, are_exploited_by"	turn_against	underling:decision_maker		
+pamper	are_underappreciated_by	turn_against	handmaiden:goddess		
+please	are_underappreciated_by	turn_against	censor:dictator		
+report_to	"are_underpaid_by, are_underappreciated_by"	turn_against	traitor:paymaster		
+sacrifice_to	are_ignored_by	turn_against	devotee:saint		
+speak_to	are_deceived_by	turn_against	eyewitness:reporter		
+support	"are_disgusted_by, are_pushed_too_far_by"	turn_against	quisling:colonizer		
+work_under	"are_abused_by, are_exploited_by"	turn_against	apprentice:artisan		
+work_with	are_pushed_too_far_by	turn_against	comrade:collaborator		
+attack	"are_deceived_by, are_tricked_by"	underestimate	aggressor:opponent		
+campaign_against	"are_deceived_by, are_tricked_by"	underestimate	challenger:incumbent		
+challenge	are_unimpressed_by	underestimate	opponent:candidate		
+charm	are_trusted_by	underestimate	snake_charmer:snake		
+collude_with	are_unimpressed_by	underestimate	conspirator:coconspirator		
+compete_against	"are_unimpressed_by, are_bored_by"	underestimate	champion:challenger		
+condescend_to	are_despised_by	underestimate	overlord:peasant		
+fight	"are_bored_by, are_deceived_by, are_tricked_by, are_unimpressed_by"	underestimate	challenger:champion		
+fight_against	"are_bored_by, are_deceived_by, are_tricked_by, are_unimpressed_by"	underestimate	ayatollah:secularist		
+govern	are_bored_by	underestimate	sultan:serf		
+harass	are_unimpressed_by	underestimate	nationalist:outsider		
+impress	are_feared_by	underestimate	elitist:commoner		
+manipulate	are_trusted_by	underestimate	serial_killer:policeman		
+oppress	"are_bored_by, are_unimpressed_by"	underestimate	oppressor:dissident		
+overshadow	are_unimpressed_by	underestimate	master:rival		
+perform_with	"are_bored_by, are_unimpressed_by"	underestimate	lion_tamer:lion		
+punish	"are_feared_by, are_despised_by"	underestimate	totalitarian:dissenter		
+rebel_against	"are_bored_by, are_unimpressed_by"	underestimate	teenager:parent		
+repress	"are_deceived_by, are_tricked_by, are_unimpressed_with"	underestimate	dictator:rebel		
+rise_against	"are_deceived_by, are_tricked_by"	underestimate	slave:puppeteer		
+rule_over	"are_bored_by, are_unimpressed_by"	underestimate	overlord:vassal		
+struggle_against	"are_tricked_by, are_deceived_by"	underestimate	fighter:foe		
+subdue	are_resisted_by	underestimate	conqueror:native		
+suppress	are_resisted_by	underestimate	don:rival		
+torment	are_despised_by	underestimate	dictator:victim		
+tower_over	are_unimpressed_by	underestimate	giant:rival		
+resemble	are_mistaken_for	undermine	child:sibling		
+serve	are_disillusioned_by	undermine	disciple:apostle		
+sing_with	"are_upstaged_by, are_underpaid_by, are_underappreciated_by"	undermine	singer:accompanist		
+support	"are_disgusted_by, are_shocked_by"	undermine	extremist:terrorist		
+copy	are_sued_by	upstage	copycat:artist		
+imitate	are_inspired_by	upstage	aspirant:role_model		
+impersonate	are_sued_by	upstage	impersonator:celebrity		
+impress	are_promoted_by	upstage	prodigy:teacher		
+pose_for	"are_lectured_by, are_mocked_by"	upstage	model:designer		
+resemble	are_mistaken_for	upstage	child:sibling		
+work_for	are_unimpressed_by	upstage	photographer:fashion_designer		
+vote_for	"are_disillusioned_by, are_unimpressed_by"	vote_against	incumbent:challenger		
+vote_against	"are_blackmailed_by, are_bought_off_by"	vote_for	neoconservative:dove		
+appoint	"are_unimpressed_by, are_distrusted_by, are_concerned_about"	watch_over	autocrat:propagandist		
+fall_in_love_with	are_concerned_about	watch_over	supervisor:trainee		
+hire	are_concerned_about	watch_over	supervisor:trainee		
+let_in	"are_greeted_by, are_complimented_by"	welcome	host:guest		
+visit	are_impressed_by	worship	gynecologist:baby		
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
