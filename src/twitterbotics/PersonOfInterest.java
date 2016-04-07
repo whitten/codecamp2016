@@ -17,7 +17,7 @@ public class PersonOfInterest
 	private String knowledgeDir				 = null;   // directory where knowledge-base(s) can be found
 	
 	// Various modules of the knowledge-base
-	
+
 	private KnowledgeBaseModule NOC          = null;
 	private KnowledgeBaseModule CATEGORIES   = null;
 	private KnowledgeBaseModule CLOTHES      = null;
@@ -87,7 +87,7 @@ public class PersonOfInterest
 		attributeFields.add("Positive Talking Points");
 	}
 	
-	
+
 	//-----------------------------------------------------------------------------------------------//
 	//-----------------------------------------------------------------------------------------------//
 	//  Generate "I was Xing with Y when attacked by Z" metaphors
