@@ -62,8 +62,11 @@ public class StoryDB {
         int randomInt = randomGenerator.nextInt(attributeFields2.size());
         Object objs = attributeFields2.get(randomInt);
         System.out.println(A + ", " + objs + " ");
-        System.out.println(NOC.getFieldValues("Category", objs.toString()));
-        System.out.println(NOC.getFieldValues("Category", A));
+        Vector firstPersonCat=NOC.getFieldValues("Category", objs.toString());
+        Vector secondPersonCat=NOC.getFieldValues("Category", A);
+        int randomInt1 = randomGenerator.nextInt(firstPersonCat.size());
+        int randomInt2 = randomGenerator.nextInt(secondPersonCat.size());
+        System.out.println(firstPersonCat.get(randomInt1) + ", " + secondPersonCat.get(randomInt2) + " ");
     }
 
 }
