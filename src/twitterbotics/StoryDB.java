@@ -51,27 +51,42 @@ public class StoryDB {
         return DICE.nextInt(size);
     }
 
-    public String randomEventInvoker (int chance, int action) {
-        if (roll(chance) != 0) return "";
-        if (action == 0) return getLocalization();
-        if (action == 1) {
-            addCollaborator();
-            return "";
-        }
-        return "";
+    public void randomEventInvoker (int chance, int action) {
+        if (roll(chance) != 0) return;
+        if (action == 0) addLocalization();
+        else if (action == 1) addCollaborator();
     }
 
-    public String getLocalization () {
+    public void addLocalization () {
         String localization = null;
         Integer randNum = roll(3) + 1;
         int j = 0;
         while (localization == null && j < 5) {
-            if (roll(2) == 0) localization = NOC.getFirstValue("Address " + randNum.toString(), A);
-            else localization = NOC.getFirstValue("Address " + randNum.toString(), B);
+            if (roll(2) == 0) {
+                localization = NOC.getFirstValue("Address " + randNum.toString(), A);
+                if (roll(3) == 0)
+                    if (!getWehicle(A).equals("")) {
+                        wordBank.add(A);
+                        wordBank.add(getWehicle(A));
+                    }
+            }
+            else {
+                localization = NOC.getFirstValue("Address " + randNum.toString(), B);
+                if (roll(3) == 0)
+                    if (!getWehicle(B).equals("")) {
+                        wordBank.add(B);
+                        wordBank.add(getWehicle(B));
+                    }
+            }
             ++j;
         }
-        if (localization == null) return NOC.getFirstValue("Address 1", B);
-        return localization;
+        if (localization == null) wordBank.add(NOC.getFirstValue("Address 1", B));
+        wordBank.add(localization);
+    }
+
+    public String getWehicle (String person) {
+        String wehicle = NOC.getFirstValue("Vehicle of Choice", person);
+        return wehicle != null ? wehicle : "";
     }
 
     public void addCollaborator () {
@@ -105,13 +120,13 @@ public class StoryDB {
                 String[] idiomaticStories = new String[3];
                 A = (String) allPeople.get(roll(allPeople.size()));
                 wordBank.clear();
-                wordBank.add(A);
+
                 Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
                 B = (String)attributeFields2.get(roll(attributeFields2.size()));
-                wordBank.add(B);
+
                 Vector firstPersonCat = NOC.getFieldValues("Category", A);
                 Vector secondPersonCat = NOC.getFieldValues("Category", B);
-                wordBank.add(getLocalization());
+                addLocalization();
 
                 Vector tmp1;
                 Vector tmp2;
@@ -137,7 +152,9 @@ public class StoryDB {
                 String verb = (String)verbs.get(roll(verbs.size()));
                 String normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb)
                         .replace("A ", "").replace(" B", "").replace(" A", "").replace("B ", "");
+                wordBank.add(A);
                 wordBank.add(normativeForm);
+                wordBank.add(B);
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", verb);
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
                 initStory = initStory.replace("B", "BZZ");
@@ -168,8 +185,7 @@ public class StoryDB {
                     idiomaticStory = idiomaticStory.replace("A", A);
                     idiomaticStory = idiomaticStory.replace("BZZ", B);
                     idiomaticStories [i]=idiomaticStory;
-                    randEvWord = randomEventInvoker(2, 0);
-                    if (!randEvWord.equals("")) wordBank.add(randEvWord);
+                    randomEventInvoker(2, 0);
                     randomEventInvoker(3, 1);
                 }
 
