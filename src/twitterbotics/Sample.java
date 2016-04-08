@@ -6,6 +6,6 @@ public class Sample {
 		String kdir = "D:/TSV Lists/";
 		String tdir = "D:/tdir/";
 		StoryDB storyDB = new StoryDB(kdir);
-		storyDB.generateAntagonistsv2();
+		storyDB.generateAntagonists();
 	}
 }
