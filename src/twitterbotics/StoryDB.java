@@ -82,7 +82,6 @@ public class StoryDB {
 
                 if (intersect.size() < 1) continue;
 
-                System.out.println(intersect);
 
 
                 Vector verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
@@ -95,9 +94,7 @@ public class StoryDB {
                 initStory = initStory.replace("A", A);
                 initStory = initStory.replace("BZZ", B);
 
-                System.out.println(A + ", " + B + " ");
 
-                System.out.println(initStory);
 
                 Vector idiomaticVerbs = new Vector();
                 for (int i = 0; i < intersect.size(); ++i) {
@@ -118,7 +115,6 @@ public class StoryDB {
                     idiomaticStory = idiomaticStory.replace("B", "BZZ");
                     idiomaticStory = idiomaticStory.replace("A", A);
                     idiomaticStory = idiomaticStory.replace("BZZ", B);
-                    System.out.println(idiomaticStory);
                 }
 
                 verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
@@ -131,8 +127,6 @@ public class StoryDB {
                 endingStory = endingStory.replace("B", "XYZZZZZ");
                 endingStory = endingStory.replace("A", A);
                 endingStory = endingStory.replace("XYZZZZZ", B);
-                System.out.println(endingStory);
-
                 System.out.println(wordBank);
 
 
