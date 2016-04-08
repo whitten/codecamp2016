@@ -87,11 +87,13 @@ public class StoryDB {
 
                 Vector verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
                 String verb = (String)verbs.get(roll(verbs.size()));
-                wordBank.add(verb);
+                String normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb).replace("A", "").replace("B", "");
+                wordBank.add(normativeForm);
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", verb);
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
+                initStory = initStory.replace("B", "BZZ");
                 initStory = initStory.replace("A", A);
-                initStory = initStory.replace("B", B);
+                initStory = initStory.replace("BZZ", B);
 
                 System.out.println(A + ", " + B + " ");
 
@@ -102,16 +104,20 @@ public class StoryDB {
                     idiomaticVerbs.addAll(INTERCAT.getFieldValues("Verbs", (String)intersect.get(i)));
                 }
 
-                for (int i = 0; (i < idiomaticVerbs.size() || idiomaticVerbs.isEmpty()); ++i) {
+                for (int i = 0; (idiomaticVerbs.isEmpty() || i < 5); ++i) {
                     int whichVerb = roll(idiomaticVerbs.size());
                     verb = (String)idiomaticVerbs.get(whichVerb);
                     idiomaticVerbs.remove(whichVerb);
-                    wordBank.add(verb);
+
 
                     Vector idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", verb);
-                    String idiomaticStory = (String)idiomaticPart.get(roll(idiomaticPart.size()));
+                    int idiomaticCounter = roll(idiomaticPart.size());
+                    String idiomaticStory = (String)idiomaticPart.get(idiomaticCounter);
+                    normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb).replace("A", "").replace("B", "");
+                    wordBank.add(normativeForm);
+                    idiomaticStory = idiomaticStory.replace("B", "BZZ");
                     idiomaticStory = idiomaticStory.replace("A", A);
-                    idiomaticStory = idiomaticStory.replace("B", B);
+                    idiomaticStory = idiomaticStory.replace("BZZ", B);
                     System.out.println(idiomaticStory);
                 }
 
@@ -120,9 +126,11 @@ public class StoryDB {
                 Vector endingStoryVec = ENDING.getFieldValues("Closing Action", endVerb);
 
                 String endingStory = (String)endingStoryVec.get(roll(endingStoryVec.size()));
+                normativeForm = IDIOMATIC.getFirstValue("Normative Form", endVerb).replace("A", "").replace("B", "");
+                wordBank.add(normativeForm);
+                endingStory = endingStory.replace("B", "XYZZZZZ");
                 endingStory = endingStory.replace("A", A);
-                endingStory = endingStory.replace("B", B);
-                wordBank.add(endVerb);
+                endingStory = endingStory.replace("XYZZZZZ", B);
                 System.out.println(endingStory);
 
                 System.out.println(wordBank);
