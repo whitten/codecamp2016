@@ -1,15 +1,21 @@
 (ns de.blubberquark.twitterbotics
-  (:import [twitterbotics KnowledgeBaseModule PersonOfInterest]
-           [javax.imageio ImageIO])
-  (:require [clojure.data.csv :as csv]
-            [clojure.data.json :as json]
-            [clj-http.lite.client :as client]
-            [clojure.java.io :as io]))
-
+  (:import
+   [twitterbotics KnowledgeBaseModule PersonOfInterest StoryDB]
+   [processing.core PImage PConstants]
+   [javax.imageio ImageIO])
+  (:require
+   [quil.core :as quil]
+   [clojure.data.csv :as csv]
+   [clojure.data.json :as json]
+   [clj-http.lite.client :as client]
+   [clojure.java.io :as io]))
 
 (def imgur-endpoint "https://api.imgur.com/3/")
 
 (def single-value-attr #{:Character :Gender :Politics (keyword "Fictive Status")})
+
+(prn '[NOC List Stuff])
+
 
 (defn parse-attribute-value [attribute value]
   [attribute (cond (= value "") nil
@@ -29,6 +35,8 @@
                                      (map parse-attribute-value people-cols row))]
                            [(:Character struct) struct])))]
       (def people people-map))))
+
+(prn '[Image Processing])
 
 (defn int->rgba [argb]
   (let [a (bit-and (bit-shift-right argb 24) 0xff)
@@ -110,9 +118,7 @@
     (for [[x y r g b a] (pixels img)]
       (.setRGB  x y (scale-color [r g b] [r1 g1 b1])))))
 
-(people "Batman")
-
-people
+(prn '[Web Resouces])
 
 (defn search-imgur [query]
   (client/get "https://api.imgur.com/3/gallery/search/top/1.json"
@@ -120,24 +126,37 @@ people
                :query-params {:q query}
                :accept :json}))
 
-(defn download-imgs [query]
-  (doall
-   (for [imgur
-         (take 10 ((json/read-str (:body (search-imgur query))) "data"))]
-     (let [img (ImageIO/read (new java.net.URL (imgur "link")))] img))))
+(defn search-oca [query]
+  (client/get "https://openclipart.org/search/json/"
+              {:query-params {:query query}
+               :accept :json}))
 
-(def wayne-imgs (download-imgs "John Wayne"))
-(prn wayne-imgs)
+(defn download-img [query]
+  (prn query)
+  (let [imgur-response (json/read-str (:body (search-imgur query)))
+        ;_ (clojure.pprint/pprint (imgur-response "data"))
+        oca-response (json/read-str (:body (search-oca query)))
+        imgur-hit (-> imgur-response
+                      (get  "data")
+                      ((partial filter (comp (partial not)
+                                             #(get %1 "is_album"))))
+                      (first)
+                      (get "link"))
+        oca-hit (-> oca-response
+                    (get "payload")
+                    (first)
+                    (get "svg")
+                    (get "png_full_lossy"))
+        _ (prn 'hits oca-hit imgur-hit)
+        url (java.net.URL. (or imgur-hit oca-hit imgur-hit))]
+    (prn 'CHOSEN url)
+    (let [img (ImageIO/read url)]
+      (prn img)
+      img)))
 
-(defn pixels [img]
-  (for [i (range 0 (.getHeight img) 15)
-        j (range 0 (.getWidth img) 15)
-          :let [argb (.getRGB img j i)
-                [r g b a] (int->rgba argb)]
-          :when (and (> a 20) (> (+ r g b) 1) (< (+ r g b) 760))]
-    [j i r g b a]))
+(prn '[quil Processing])
 
-(defn draw [image]
+(defn show-in-frame [image]
   (let [canvas (proxy [javax.swing.JLabel] []
                  (paint [g] (.drawImage g image 0 0 this)))]
     (doto (javax.swing.JFrame.)
@@ -145,10 +164,48 @@ people
       (.setSize (java.awt.Dimension. (.getWidth image) (.getHeight image)))
       (.show))))
 
-(prn (dominant-color (mapcat img->colors (take 5 sun-imgs))))
+(defn to-pimg [bimg]
+  (let [pimg (new PImage (.getWidth bimg) (.getHeight bimg ) PConstants/ARGB)];
+    (.getRGB bimg 0 0 (.-width pimg) (.-height pimg) (.-pixels pimg) 0  (.-width pimg))
+    (.updatePixels pimg)
+    pimg))
 
-(draw ((vec sun-imgs) 6))
+;(prn (dominant-color (mapcat img->colors (take 5 sun-imgs))))
+;(show-in-frame (first (download-imgs "Batman")))
+;(draw ((vec hugh-imgs) 0))
+;(prn sun-imgs)
 
-(prn sun-imgs)
+(def img (ref nil))
 
-(prn 2)
+(defn setup []
+  (quil/background 0)
+  (dosync (ref-set img (to-pimg (download-img "Batman")))))
+
+(defn draw []
+  (quil/image @img 0 0))
+
+(quil/defsketch example
+  :title "image demo"
+  :setup setup
+  :draw draw
+  :size [800 600])
+
+(prn '[Story Integration])
+
+(let [kdir "TSV Lists/"
+       story-db (StoryDB. kdir)]
+  (.generateAntagonists story-db)
+  (let [_ (prn (bean story-db))
+        story-vec (:wordBank
+                   (bean story-db))
+        [person-A person-B place & verbs] story-vec]
+    (prn story-vec)
+    (show-in-frame (download-img person-A))
+    (show-in-frame (download-img person-B))
+    (show-in-frame (download-img place))))
+
+(show-in-frame (download-img "Jack The Ripper"))
+(show-in-frame (download-img "Nikola Tesla"))
+(show-in-frame (download-img "Voltaire"))
+
+(download-img "Batman")

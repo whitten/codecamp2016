@@ -7,6 +7,7 @@
                  [net.sf.extjwnl/extjwnl "1.9.1"]
                  [net.sf.extjwnl/extjwnl-data-wn31 "1.2"]
                  [org.boofcv/all "0.23"]
+                 [quil "2.4.0"]
                  [gov.nih.imagej/imagej "1.47"]]
   :min-lein-version  "2.0.0"
   :source-paths      ["src-clojure"]
