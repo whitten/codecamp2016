@@ -51,9 +51,14 @@ public class StoryDB {
         return DICE.nextInt(size);
     }
 
-    public String randomEventInvoker () {
-        if (roll(2) == 0) return "";
-        return getLocalization();
+    public String randomEventInvoker (int chance, int action) {
+        if (roll(chance) != 0) return "";
+        if (action == 0) return getLocalization();
+        if (action == 1) {
+            addCollaborator();
+            return "";
+        }
+        return "";
     }
 
     public String getLocalization () {
@@ -67,6 +72,26 @@ public class StoryDB {
         }
         if (localization == null) return NOC.getFirstValue("Address 1", B);
         return localization;
+    }
+
+    public void addCollaborator () {
+        String collab;
+        if (roll(2) == 0) {
+            collab = NOC.getFirstValue("Opponent", A);
+            if (collab != null) {
+                wordBank.add(B);
+                wordBank.add("collaborated");
+                wordBank.add(collab);
+            }
+        }
+        else {
+            collab = NOC.getFirstValue("Opponent", B);
+            if (collab != null) {
+                wordBank.add(A);
+                wordBank.add("collaborated");
+                wordBank.add(collab);
+            }
+        }
     }
 
     public void generateAntagonists() {
@@ -143,8 +168,9 @@ public class StoryDB {
                     idiomaticStory = idiomaticStory.replace("A", A);
                     idiomaticStory = idiomaticStory.replace("BZZ", B);
                     idiomaticStories [i]=idiomaticStory;
-                    randEvWord = randomEventInvoker();
+                    randEvWord = randomEventInvoker(2, 0);
                     if (!randEvWord.equals("")) wordBank.add(randEvWord);
+                    randomEventInvoker(3, 1);
                 }
 
                 verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
