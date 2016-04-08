@@ -200,24 +200,24 @@ public class StoryDB {
                 endingStory = endingStory.replace("B", "XYZZZZZ");
                 endingStory = endingStory.replace("A", A);
                 endingStory = endingStory.replace("XYZZZZZ", B);
-                System.out.println(wordBank);
+                //System.out.println(wordBank);
 
 
                 initStory = initStory.replace("\"","");
 
                 endingStory = endingStory.replace("\"","");
 
-                System.out.print(initStory+ ". ");
+                System.out.println(initStory+ ". ");
                 for (int i=0; i<3;i++)
                 {
                 	idiomaticStories[i] = idiomaticStories[i].replace("\"","");
 
-                	System.out.print(idiomaticStories[i] + ". ");
+                	System.out.println(idiomaticStories[i] + ". ");
 
                 }
 
 
-                System.out.print(endingStory+ '.');
+                System.out.println(endingStory+ '.');
 
 
                 break;
