@@ -2,6 +2,7 @@ package twitterbotics;
 
 import java.util.Hashtable;
 import java.util.Random;
+import java.util.StringTokenizer;
 import java.util.Vector;
 
 /**
@@ -25,6 +26,9 @@ public class StoryDB {
     private KnowledgeBaseModule IDIOMATIC       = null;
     private Vector wordBank = new Vector();
 
+    private String A = null;
+    private String B = null;
+
     public Vector getWordBank () {
         return wordBank;
     }
@@ -47,30 +51,47 @@ public class StoryDB {
         return DICE.nextInt(size);
     }
 
+    public String randomEventInvoker () {
+        if (roll(2) == 0) return "";
+        return getLocalization();
+    }
+
+    public String getLocalization () {
+        String localization = null;
+        Integer randNum = roll(3) + 1;
+        int j = 0;
+        while (localization == null && j < 5) {
+            if (roll(2) == 0) localization = NOC.getFirstValue("Address " + randNum.toString(), A);
+            else localization = NOC.getFirstValue("Address " + randNum.toString(), B);
+            ++j;
+        }
+        if (localization == null) return NOC.getFirstValue("Address 1", B);
+        return localization;
+    }
+
     public void generateAntagonists() {
 
         while(true) {
             try {
                 attributeFields.add("Negative Talking Points");
                 attributeFields.add("Positive Talking Points");
-                
-                
+
+
                 String[] idiomaticStories = new String[3];
-                String A = (String) allPeople.get(roll(allPeople.size()));
+                A = (String) allPeople.get(roll(allPeople.size()));
                 wordBank.clear();
                 wordBank.add(A);
                 Vector attributeFields2 = NOC.getSimilarConcepts(A, attributeFields);
-                String B = (String)attributeFields2.get(roll(attributeFields2.size()));
+                B = (String)attributeFields2.get(roll(attributeFields2.size()));
                 wordBank.add(B);
                 Vector firstPersonCat = NOC.getFieldValues("Category", A);
                 Vector secondPersonCat = NOC.getFieldValues("Category", B);
-                String localization = NOC.getFirstValue("Address 1", A);
-                if (localization == null) localization = NOC.getFirstValue("Address 1", B);
-                wordBank.add(localization);
+                wordBank.add(getLocalization());
 
                 Vector tmp1;
                 Vector tmp2;
                 Vector intersect = new Vector();
+                String randEvWord = "";
 
                 for (int i = 0; i < firstPersonCat.size(); ++i) {
                     for (int j =  0; j < secondPersonCat.size(); ++j) {
@@ -89,7 +110,8 @@ public class StoryDB {
 
                 Vector verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
                 String verb = (String)verbs.get(roll(verbs.size()));
-                String normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb).replace("A", "").replace("B", "");
+                String normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb)
+                        .replace("A ", "").replace(" B", "").replace(" A", "").replace("B ", "");
                 wordBank.add(normativeForm);
                 Vector initStoryVec = INIT.getFieldValues("Establishing Action", verb);
                 String initStory = (String)initStoryVec.get(roll(initStoryVec.size()));
@@ -104,7 +126,7 @@ public class StoryDB {
                     idiomaticVerbs.addAll(INTERCAT.getFieldValues("Verbs", (String)intersect.get(i)));
                 }
 
-                
+
                 for (int i = 0; (idiomaticVerbs.isEmpty() || i < 3); ++i) {
                     int whichVerb = roll(idiomaticVerbs.size());
                     verb = (String)idiomaticVerbs.get(whichVerb);
@@ -114,12 +136,15 @@ public class StoryDB {
                     Vector idiomaticPart = IDIOMATIC.getFieldValues("Idiomatic Forms", verb);
                     int idiomaticCounter = roll(idiomaticPart.size());
                     String idiomaticStory = (String)idiomaticPart.get(idiomaticCounter);
-                    normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb).replace("A", "").replace("B", "");
+                    normativeForm = IDIOMATIC.getFirstValue("Normative Form", verb)
+                            .replace("A ", "").replace(" B", "").replace(" A", "").replace("B ", "");
                     wordBank.add(normativeForm);
                     idiomaticStory = idiomaticStory.replace("B", "BZZ");
                     idiomaticStory = idiomaticStory.replace("A", A);
                     idiomaticStory = idiomaticStory.replace("BZZ", B);
                     idiomaticStories [i]=idiomaticStory;
+                    randEvWord = randomEventInvoker();
+                    if (!randEvWord.equals("")) wordBank.add(randEvWord);
                 }
 
                 verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
@@ -127,28 +152,29 @@ public class StoryDB {
                 Vector endingStoryVec = ENDING.getFieldValues("Closing Action", endVerb);
 
                 String endingStory = (String)endingStoryVec.get(roll(endingStoryVec.size()));
-                normativeForm = IDIOMATIC.getFirstValue("Normative Form", endVerb).replace("A", "").replace("B", "");
+                normativeForm = IDIOMATIC.getFirstValue("Normative Form", endVerb)
+                        .replace("A ", "").replace(" B", "").replace(" A", "").replace("B ", "");
                 wordBank.add(normativeForm);
                 endingStory = endingStory.replace("B", "XYZZZZZ");
                 endingStory = endingStory.replace("A", A);
                 endingStory = endingStory.replace("XYZZZZZ", B);
                 System.out.println(wordBank);
 
-                
+
                 initStory = initStory.replace("\"","");
-                
+
                 endingStory = endingStory.replace("\"","");
-                
+
                 System.out.print(initStory+ ". ");
                 for (int i=0; i<3;i++)
                 {
                 	idiomaticStories[i] = idiomaticStories[i].replace("\"","");
 
                 	System.out.print(idiomaticStories[i] + ". ");
-                	
+
                 }
-                
-                
+
+
                 System.out.print(endingStory+ '.');
 
 
