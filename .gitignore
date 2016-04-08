@@ -49,6 +49,8 @@ temp/
 classes/
 deploy/
 javadoc/
+target/
+output/
 
 # lock file, a part of Oracle Credential Store Framework
 cwallet.sso.lck### Java template
