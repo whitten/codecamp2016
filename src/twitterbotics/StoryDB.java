@@ -101,7 +101,7 @@ public class StoryDB {
                     idiomaticVerbs.addAll(INTERCAT.getFieldValues("Verbs", (String)intersect.get(i)));
                 }
 
-                for (int i = 0; (idiomaticVerbs.isEmpty() || i < 5); ++i) {
+                for (int i = 0; (idiomaticVerbs.isEmpty() || i < 3); ++i) {
                     int whichVerb = roll(idiomaticVerbs.size());
                     verb = (String)idiomaticVerbs.get(whichVerb);
                     idiomaticVerbs.remove(whichVerb);
@@ -129,7 +129,12 @@ public class StoryDB {
                 endingStory = endingStory.replace("XYZZZZZ", B);
                 System.out.println(wordBank);
 
-
+                
+                initStory = initStory.replace("\"","");
+                endingStory = endingStory.replace("\"","");
+                
+                System.out.print(initStory+ ". ");
+                System.out.print(endingStory+ '.');
 
 
                 break;
