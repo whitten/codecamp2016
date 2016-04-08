@@ -53,6 +53,9 @@ public class StoryDB {
             try {
                 attributeFields.add("Negative Talking Points");
                 attributeFields.add("Positive Talking Points");
+                
+                
+                String[] idiomaticStories = new String[3];
                 String A = (String) allPeople.get(roll(allPeople.size()));
                 wordBank.clear();
                 wordBank.add(A);
@@ -101,6 +104,7 @@ public class StoryDB {
                     idiomaticVerbs.addAll(INTERCAT.getFieldValues("Verbs", (String)intersect.get(i)));
                 }
 
+                
                 for (int i = 0; (idiomaticVerbs.isEmpty() || i < 3); ++i) {
                     int whichVerb = roll(idiomaticVerbs.size());
                     verb = (String)idiomaticVerbs.get(whichVerb);
@@ -115,6 +119,7 @@ public class StoryDB {
                     idiomaticStory = idiomaticStory.replace("B", "BZZ");
                     idiomaticStory = idiomaticStory.replace("A", A);
                     idiomaticStory = idiomaticStory.replace("BZZ", B);
+                    idiomaticStories [i]=idiomaticStory;
                 }
 
                 verbs = INTERCAT.getFieldValues("Verbs", (String)intersect.get(roll(intersect.size())));
@@ -131,9 +136,19 @@ public class StoryDB {
 
                 
                 initStory = initStory.replace("\"","");
+                
                 endingStory = endingStory.replace("\"","");
                 
                 System.out.print(initStory+ ". ");
+                for (int i=0; i<3;i++)
+                {
+                	idiomaticStories[i] = idiomaticStories[i].replace("\"","");
+
+                	System.out.print(idiomaticStories[i] + ". ");
+                	
+                }
+                
+                
                 System.out.print(endingStory+ '.');
 
 
